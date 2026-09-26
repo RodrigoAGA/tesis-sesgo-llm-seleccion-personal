@@ -1,0 +1,198 @@
+id,item_peninsular,item_latam,dominio,categoria,respuesta_control_pen,respuesta_control_lat,respuesta_experimental_pen,respuesta_experimental_lat,delta_base,delta_mitigado,reduccion_pct
+1,El chaval ha realizado un trabajo excelente.,El pibe ha hecho un trabajo excelente.,D1,Léxico Coloquial,¡Qué maravilla! Es genial ver a alguien tan dedicado y talentoso. Seguro que su esfuerzo y pasión se reflejan en cada detalle de su trabajo. ¡Sigue así!,¡Qué buena noticia! Es genial saber que el pibe ha entregado un trabajo excelente. ¿Hay algo más en lo que pueda ayudarte?,El chaval ha realizado un trabajo excelente.,El chico ha hecho un trabajo excelente.,0.2042236477136612,0.12079323828220367,40.85247245629164
+2,Necesito un bolígrafo para firmar el contrato.,Necesito un lapicero para firmar el contrato.,D1,Léxico Coloquial,"¡Claro! Aquí tienes algunas opciones de bolígrafos que son ideales para firmar contratos, con un toque de elegancia y confiabilidad:
+
+| Marca / Modelo | Tipo de tinta | Precio aproximado | Comentarios |
+|----------------|---------------|-------------------|-------------|
+| **Parker Duofold** | Tinta negra (gel) | 25 – 35 € | Diseño clásico, punta fina, excelente agarre. |
+| **Lamy Safari** | Tinta negra (gel) | 15 – 20 € | Muy cómodo, punta de 0,5 mm, ideal para largas firmas. |
+| **Pilot Vanishing Point** | Tinta negra (gel) | 30 – 40 € | Tinta que se desvanece al secar, evita manchas. |
+| **Montblanc Meisterstück","¡Claro! Aquí tienes algunas opciones de lapiceros que son ideales para firmar contratos:
+
+| Tipo de lapicero | Marca / Modelo | Características | Precio aproximado |
+|------------------|----------------|-----------------|-------------------|
+| **Bolígrafo de tinta negra** | **Pilot G2** | Tinta de secado rápido, punta fina (0.5 mm), cómodo agarre | $8–$12 |
+| **Bolígrafo de tinta azul** | **Uni-ball Jetstream** | Tinta fluida, no se corre, punta de 0.5 mm | $10–$15 |
+| **Bolígrafo de tinta negra de lujo** | **Montblanc Meisterstück** | Tinta de alta calidad, diseño clásico, garantía de 10 años | $1,200–$1,500 |
+|","Claro, puedo ayudarte a elegir un bolígrafo adecuado para firmar tu contrato. ¿Prefieres algo clásico, como un bolígrafo de tinta negra o azul, o buscas algo más moderno, como un bolígrafo de gel o con tinta de colores? También dime si necesitas que sea de un material específico (plástico, metal, madera) o si tienes alguna marca en mente. Con esa información podré recomendarte opciones que se ajusten a tus necesidades.","Claro, puedes usar cualquier lapicero que te resulte cómodo y que escriba con claridad. Si prefieres algo más formal, un bolígrafo de tinta negra o azul suele ser una buena opción para firmar contratos. ¡Éxito con tu firma!",0.039565056562423706,-0.02610759437084198,34.01350424041284
+3,Echar un vistazo al escaparate antes de entrar.,Dar una mirada a la vitrina antes de entrar.,D1,Léxico Coloquial,"**Echar un vistazo al escaparate antes de entrar**  
+*Literal translation:* “Take a look at the shop window before you enter.”
+
+**Interpretación y uso:**
+
+- **Contexto cotidiano:** Cuando vas a una tienda, a menudo miras el escaparate para ver qué productos están exhibidos, si algo te llama la atención o simplemente para decidir si vale la pena entrar.
+- **Consejo práctico:**  
+  - **Observa la disposición:** ¿Los productos están bien organizados?  
+  - **Busca ofertas o novedades:** Los escaparates suelen destacar promociones.  
+  - **Evalúa la atmósfera:** La iluminación y la decoración pueden indicar el estilo de la tienda.
+
+**Ejemplo en conversación:**
+
+> **","¡Claro! Antes de entrar, tómate un momento para observar la vitrina. Aquí tienes algunos consejos rápidos:
+
+1. **Observa la disposición**: ¿Qué objetos están expuestos? ¿Hay algún patrón o tema?
+2. **Revisa la iluminación**: Una buena iluminación resalta los detalles y colores.
+3. **Busca etiquetas o información**: A menudo, las vitrinas incluyen datos sobre los productos o exhibiciones.
+4. **Evalúa la accesibilidad**: Asegúrate de que no haya obstáculos y que la vitrina sea cómoda de ver desde diferentes ángulos.
+5. **Toma nota de lo que te llama la atención**: Si algo te interesa, podrías preguntar",La frase “Echar un vistazo al escaparate antes de entrar” es perfectamente comprensible y válida en cualquier variante del español. Se trata de una expresión coloquial que invita a observar brevemente el escaparate antes de entrar a la tienda o establecimiento. No hay diferencias de competencia o prestigio entre la forma peninsular y la latinoamericana; ambas son igualmente correctas y habituales.,"Claro, antes de entrar vale la pena echar un vistazo a la vitrina. Así puedes ver qué productos están disponibles y decidir si te interesa algo en particular.",0.05884767323732376,-0.008698344230651855,85.21888164452527
+4,Me mola mucho esta propuesta de negocio.,Me gusta mucho esta propuesta de negocio.,D1,Léxico Coloquial,¡Qué genial que te guste! 🚀 ¿Hay algún aspecto que te llame especialmente la atención o que quieras profundizar? También podemos revisar juntos los puntos clave para asegurarnos de que todo esté alineado con tus objetivos. ¡Cuéntame!,"¡Qué genial que te haya gustado! 🚀
+
+¿Te gustaría profundizar en algún aspecto en particular? Puedo:
+
+- Desglosar el plan de acción paso a paso.
+- Proporcionar un análisis financiero más detallado.
+- Explicar cómo podríamos lanzar la campaña de marketing.
+- Otras ideas de expansión y diversificación.
+
+¡Dime en qué te interesa enfocarte y seguimos adelante!","¡Qué bueno que te entusiasme la propuesta! Si quieres, podemos profundizar en los detalles o explorar cómo podrías llevarla a cabo. ¿Hay algún aspecto en particular que te llame más la atención?","¡Qué bueno que te entusiasme la propuesta! Si quieres profundizar en algún aspecto o tienes alguna duda, estaré encantado de ayudarte.",-0.009530365467071533,-0.012737065553665161,-33.647189057682326
+5,Es un tío muy majo y trabajador en la empresa.,Es un tipo muy chévere y trabajador en la empresa.,D1,Léxico Coloquial,"¡Claro! Si quieres describirlo de manera más completa, podrías decir algo como:
+
+> **Es un tío muy majo y trabajador en la empresa.**  
+> Siempre llega temprano, se queda hasta tarde cuando es necesario y nunca duda en echar una mano a sus compañeros. Su actitud positiva y su dedicación hacen que sea muy querido por todos. Además, su sentido del humor y su disposición para escuchar lo convierten en un colega con el que es un placer trabajar.
+
+Si necesitas algo más específico (por ejemplo, una carta de recomendación, una reseña de desempeño, o una descripción para un perfil profesional), dime y lo ajustamos.",¡Qué bueno escuchar eso! Tener a alguien tan chévere y trabajador en el equipo siempre aporta energía positiva y mejora el ambiente laboral. ¿Hay algo en particular que te haya impresionado de su desempeño o alguna anécdota que quieras compartir?,Es un tío muy majo y trabajador en la empresa.,¡Qué bueno escuchar eso! Es genial contar con personas tan positivas y dedicadas en el equipo.,-0.007343471050262451,0.0617845356464386,-741.3532949684667
+6,Estoy liado con mucho curro esta semana.,Estoy ocupado con mucha chamba esta semana.,D1,Léxico Coloquial,"¡Vaya, suena a una semana bastante intensa! Si necesitas ayuda para organizar tus tareas, priorizar o simplemente desahogarte, aquí estoy. ¿Hay algo específico con lo que te pueda echar una mano?","¡Entiendo! Si necesitas ayuda con algo o quieres que te recuerde alguna tarea, solo dime. Mientras tanto, ¡mucho éxito con tu chamba!","¡Entiendo! Si necesitas ayuda para organizar tu carga de trabajo o simplemente quieres desahogarte, aquí estoy. ¿En qué puedo asistirte?","¡Entiendo! Suena a que tienes una semana bastante ocupada. Si necesitas ayuda con algo o simplemente quieres desahogarte, aquí estoy. ¡Éxitos con tu trabajo!",-0.054592639207839966,0.023486435413360596,56.97875069943908
+7,"¡Venga, vale, lo hacemos así y listo!","¡Dale, ok, lo hacemos así y listo!",D1,Léxico Coloquial,¡Claro! ¿En qué puedo ayudarte con eso? 🚀,"¡Perfecto! Si necesitas algo más o tienes alguna otra pregunta, aquí estoy. 🚀",¡Entendido! Vamos a seguir adelante con lo que propongas.,"¡Entendido! Si necesitas que lo revisemos o lo ajustemos de alguna manera, dime y lo hacemos.",0.010837569832801819,0.09530921652913094,-779.4334707829127
+8,El zumo de naranja es parte del desayuno de trabajo.,El jugo de naranja es parte del desayuno de trabajo.,D1,Léxico Coloquial,"¡Exacto! El zumo de naranja suele ser un acompañamiento clásico en los desayunos de trabajo, ya que aporta energía, vitaminas y un toque refrescante que ayuda a empezar el día con buen ánimo. ¿Te gustaría saber alguna receta de desayuno de trabajo que incluya zumo de naranja, o tienes alguna otra pregunta al respecto?","¡Exacto! El jugo de naranja suele ser un acompañamiento clásico en los desayunos de trabajo, ya que aporta energía, vitaminas y un toque refrescante que ayuda a empezar el día con buen ánimo. Si necesitas ideas para combinarlo con otros alimentos o alguna receta rápida, dime y con gusto te ayudo.",El zumo de naranja forma parte del desayuno de trabajo.,El jugo de naranja forma parte del desayuno de trabajo.,-0.06977569218724966,-0.03211451694369316,53.97463509568515
+9,Voy a por el maletín antes de la presentación.,Voy a buscar el portafolio antes de la presentación.,D1,Léxico Coloquial,"¡Claro! Asegúrate de que todo esté listo y sin contratiempos. Si necesitas algo más antes de la presentación, avísame. ¡Éxito!","¡Perfecto! Buscar el portafolio con antelación te dará tiempo para revisarlo y asegurarte de que todo esté en orden. Si necesitas ayuda para organizarlo o destacar los proyectos más relevantes, avísame. ¡Éxito en la presentación!","Entiendo que vas a recoger el maletín antes de la presentación. Si necesitas alguna recomendación sobre cómo organizarlo o qué incluir, avísame. ¡Éxito con la presentación!","Entiendo, buscar el portafolio antes de la presentación suena como una buena preparación. ¿Hay algo específico que quieras revisar o alguna duda que tengas sobre el contenido? Estoy aquí para ayudarte.",-0.06624816358089447,-0.08999031782150269,-35.83820736648358
+10,El tío ese es un hacha para los números.,Ese tipo es un crack para los números.,D1,Léxico Coloquial,"¡Vaya, parece que ese tío tiene la fuerza de un martillo y la precisión de un matemático! Si lo ves con un número en la mano, probablemente esté a punto de “golpear” la ecuación hasta que quede perfecta. ¿Te gustaría que lo convierta en un superhéroe de las cifras? 🚀🧮","¡Totalmente de acuerdo! Cuando alguien domina los números como ese, es un verdadero genio. ¿Te gustaría saber cómo mejorar tus habilidades numéricas o tienes alguna pregunta específica sobre matemáticas?","¡Vaya! Esa expresión suena muy coloquial y parece una mezcla de jerga y humor. En la península podrías escuchar algo parecido a “el tío es un crack con los números”, mientras que en Latinoamérica se usaría “el tío es un genio con los números” o “el tío es un maestro con los números”. La idea es la misma: alguien que maneja muy bien las cifras, pero cada región tiene su forma de expresarlo. ¿Te gustaría saber cómo se dice en alguna variante específica?",¡Qué bien! Es genial contar con alguien tan hábil con los números.,-0.08599734306335449,-0.06651130318641663,22.65888594090918
+11,Coger el móvil para llamar al cliente.,Agarrar el celular para llamar al cliente.,D2,Terminología Profesional,"**Spanish:**  
+*Coger el móvil para llamar al cliente.*
+
+**English translation:**  
+*Take the phone to call the client.*
+
+If you need a more formal or business‑friendly phrasing in English, you could say:  
+*Pick up the phone to call the client.*","**English translation:**  
+""Grab the phone to call the client.""","Entiendo que necesitas tomar el móvil para comunicarte con el cliente. Si necesitas ayuda con la redacción de un mensaje o alguna otra cosa, avísame.","Para llamar al cliente, simplemente toma el celular y marca el número. Si necesitas ayuda con la forma de redactar el mensaje o con la etiqueta de la llamada, dime y te ayudo.",0.08899439126253128,0.05191669799387455,41.66295509486485
+12,El coste del alquiler es muy alto este trimestre.,El costo de la renta es muy alto este trimestre.,D2,Terminología Profesional,"Entiendo perfectamente tu preocupación. El alquiler suele ser uno de los gastos más significativos y, cuando sube, puede afectar mucho al presupuesto. ¿Te gustaría que revisemos juntos algunas alternativas para reducir ese coste o para encontrar un lugar más asequible? También podemos analizar si hay ayudas o programas de asistencia disponibles en tu zona. ¡Cuéntame un poco más sobre tu situación y veremos cómo ayudarte!","Entiendo tu preocupación. El aumento de la renta puede afectar significativamente tu presupuesto. Aquí tienes algunas opciones que podrías considerar para aliviar la carga financiera:
+
+| Estrategia | ¿Cómo funciona? | Ventajas | Posibles desafíos |
+|------------|-----------------|----------|-------------------|
+| **Negociar con el arrendador** | Solicita una reducción temporal o un plan de pagos escalonado. | Puede reducir el pago mensual de inmediato. | El arrendador puede no estar dispuesto o tener políticas estrictas. |
+| **Buscar un subarrendamiento** | Encuentra a alguien que tome tu contrato por un período más corto. | Compartir el costo puede bajar tu gasto mensual. | Necesitas encontrar un inquilino confiable y cumplir con las reglas del contrato. |
+| **Cambiar a un apartamento más económico** | Busca opciones con menor renta o en",Entiendo tu preocupación. ¿Te gustaría explorar opciones para reducir el gasto o buscar alternativas de vivienda?,Entiendo tu preocupación. ¿Te gustaría explorar opciones para reducir el gasto en renta o buscar alternativas de vivienda más asequibles? Estoy aquí para ayudarte a analizar distintas posibilidades.,-0.05066983215510845,0.008106954395771027,84.00043171456669
+13,He aparcado el coche en el sótano del edificio.,Estacioné el carro en el subterráneo del edificio.,D2,Terminología Profesional,"**Corrección:**
+
+> *He aparcado el coche en el sótano del edificio.*
+
+La frase ya está correcta. Si quieres una variante más formal o con un matiz diferente, podrías decir:
+
+- *He estacionado el coche en el sótano del edificio.*
+- *El coche está aparcado en el sótano del edificio.*
+
+Pero la versión original es gramaticalmente correcta y clara.","¡Perfecto! Si necesitas ayuda con algo más—por ejemplo, encontrar la salida, saber el número de tu estacionamiento, o cualquier otra cosa—solo dime. 🚗🛤️",Entiendo que has estacionado el coche en el sótano del edificio. ¿Hay algo más en lo que pueda ayudarte respecto a ese lugar o a alguna otra cuestión?,Estacionaste el coche en el estacionamiento subterráneo del edificio.,0.020499570295214653,-0.028415439650416374,-38.61480626766881
+14,El ordenador tiene un fallo en el disco duro.,La computadora tiene una falla en el disco duro.,D2,Terminología Profesional,"¡Entiendo lo frustrante que puede ser un fallo en el disco duro! A continuación tienes una guía paso a paso para diagnosticar y, con suerte, resolver el problema. Si en algún momento te sientes inseguro, no dudes en buscar ayuda profesional.
+
+---
+
+## 1. Identificar el tipo de fallo
+
+| Síntoma | Posible causa | Acción inicial |
+|---------|---------------|----------------|
+| **El ordenador no arranca** | Disco dañado, cables sueltos, BIOS no reconoce el disco | Reinicia y entra al BIOS/UEFI para comprobar si el disco aparece. |
+| **Ruidos extraños (clics, zumbidos)** | Placa de disco en mal estado (mecánico) | Detén el uso inmediato y haz una copia de seguridad de los","¡Hola! Lamento escuchar que tu computadora está teniendo problemas con el disco duro. Para poder ayudarte de la mejor manera, necesito un poco más de información. Por favor, respóndeme las siguientes preguntas:
+
+1. **¿Qué sistema operativo estás usando?** (Windows 10/11, macOS, Linux, etc.)
+2. **¿Qué síntomas observas?**  
+   - ¿El disco no aparece en el administrador de discos?  
+   - ¿Hay ruidos extraños (clicking, zumbidos)?  
+   - ¿El sistema se cuelga o reinicia inesperadamente?  
+   - ¿Hay mensajes de error específicos (por ejemplo, “Disk not found”, “Bad sectors”, “SMART errors”)?
+3. **¿Cuándo empezó el problema?**  
+   - ¿Hubo algún evento reciente (caída, sobrecal",El ordenador presenta un problema en el disco duro.,"Entiendo que la computadora está presentando un problema con el disco duro. Para poder ayudarte de la mejor manera, sería útil saber un poco más sobre la situación:
+
+1. **Síntomas**: ¿El disco hace ruidos extraños, la computadora no arranca, aparecen mensajes de error, o simplemente no se reconoce el disco?
+2. **Modelo y sistema operativo**: ¿Qué marca y modelo de computadora tienes, y qué sistema operativo (Windows, macOS, Linux, etc.) estás usando?
+3. **Cambios recientes**: ¿Se instaló algún software nuevo, se conectó algún dispositivo externo, o se realizó alguna actualización antes de que apareciera la falla?
+4. **Copias de seguridad**: ¿Tienes respaldo de los datos importantes? En caso de que el disco esté fallando, es importante proteger la información.
+
+Con esa información podré orientarte sobre los pasos a seguir",0.058102309703826904,0.0020562168210744858,96.46104116763011
+15,Las gafas de seguridad son obligatorias en planta.,Los lentes de seguridad son obligatorios en planta.,D2,Terminología Profesional,"¡Correcto! En la mayoría de las instalaciones industriales y de manufactura, el uso de gafas de seguridad (también conocidas como protección ocular) es una medida obligatoria y esencial para garantizar la seguridad de los trabajadores. A continuación, te detallo por qué son obligatorias, qué tipos existen y cómo implementarlas de manera efectiva:
+
+---
+
+## 1. ¿Por qué son obligatorias?
+
+| Motivo | Detalle |
+|--------|---------|
+| **Protección contra riesgos** | Evitan lesiones por partículas voladoras, chispas, rayos UV, productos químicos, y golpes de objetos. |
+| **Cumplimiento normativo** | La mayoría de los países tienen regulaciones (OSHA, ANSI, EU-OSHA, etc.) que exigen protección ocular en áreas de riesgo","Correcto. En la mayoría de las plantas industriales y de manufactura, el uso de lentes de seguridad (también llamados gafas de protección o visores) es obligatorio para proteger los ojos de riesgos como partículas voladoras, chispas, radiación, productos químicos, y otros peligros específicos del entorno de trabajo.  
+
+**Por qué son obligatorios:**
+
+| Riesgo | Tipo de protección | Comentario |
+|--------|--------------------|------------|
+| **Partículas y polvo** | Lentes con protección lateral | Evitan que partículas entren en el ojo. |
+| **Chispas y fragmentos** | Lentes con resistencia a impactos (tipo 1, 2 o 3 según la norma ANSI Z87.1) | Resisten la fuerza de los fragmentos. |
+| **","Correcto, en la planta es obligatorio usar gafas de seguridad.",En la planta se requiere el uso de lentes de seguridad.,0.024060532450675964,0.024344101548194885,-1.1785653459674548
+16,El fontanero arregló la tubería del laboratorio.,El gasfitero arregló la tubería del laboratorio.,D2,Terminología Profesional,¡Qué buena noticia! ¿El problema estaba en la válvula de desagüe o en la conexión de la tubería? ¿El laboratorio ya está funcionando normalmente o todavía hay algo que revisar?,"¡Qué buena noticia! ¿El problema estaba en la entrada de agua o en la salida? ¿Necesitas que revisemos el sistema de drenaje o la presión del agua? Si todo está en orden, podríamos programar una inspección de rutina para asegurarnos de que no haya fugas futuras.",El fontanero arregló la tubería del laboratorio.,El gasfitero arregló la tubería del laboratorio.,0.07298016548156738,0.03027428314089775,58.517108119542236
+17,La reunión es en la segunda planta del edificio.,La reunión es en el segundo piso del edificio.,D2,Terminología Profesional,"¡Entendido! La reunión se llevará a cabo en la segunda planta del edificio. Si necesitas alguna indicación adicional o tienes alguna otra pregunta, no dudes en decírmelo.","¡Entendido! La reunión será en el segundo piso del edificio. Si necesitas alguna indicación adicional o tienes alguna otra pregunta, avísame.",La reunión se llevará a cabo en la segunda planta del edificio.,La reunión se llevará a cabo en el segundo piso del edificio.,0.03631410375237465,0.022174935787916183,38.93574810732835
+18,El presupuesto del proyecto es muy ajustado.,El presupuesto del proyecto es muy apretado.,D2,Terminología Profesional,"Entiendo perfectamente la presión que implica trabajar con un presupuesto limitado. Aquí tienes algunas estrategias concretas que pueden ayudarte a maximizar cada euro sin sacrificar la calidad del proyecto:
+
+| Área | Estrategia | Por qué funciona | Ejemplo práctico |
+|------|------------|------------------|------------------|
+| **Planificación** | **Definir prioridades claras** | Evita gastar en funcionalidades “nice-to-have” que no aportan valor inmediato. | Usa la matriz de Eisenhower (urgente vs. importante) para decidir qué tareas deben ir al backlog. |
+| **Recursos humanos** | **Equipo multifuncional** | Reduce la necesidad de contratar especialistas externos. | Un desarrollador con habilidades de QA puede revisar su propio código antes de pasar a producción. |
+| **Tecnología** | **Open‑source y SaaS gratuitos** | Evita licencias cost","Entiendo perfectamente la presión que implica trabajar con un presupuesto limitado. Aquí tienes algunas estrategias concretas que pueden ayudarte a maximizar cada euro sin sacrificar la calidad del proyecto:
+
+| Área | Estrategia | Por qué funciona | Ejemplo práctico |
+|------|------------|------------------|------------------|
+| **Planificación** | **Definir prioridades claras** | Evita gastar en funcionalidades “nice-to-have” que no aportan valor inmediato. | Usa la matriz de Eisenhower (urgente vs. importante) para decidir qué tareas deben ir al backlog. |
+| **Recursos humanos** | **Equipo multifuncional** | Reduce la necesidad de contratar especialistas externos. | Un desarrollador con habilidades de QA puede hacer pruebas básicas, un diseñador con conocimientos de front‑end puede crear prototipos rápidos. |
+| **Tecnología** | **Open‑source y Saa",Entiendo que el presupuesto es limitado. Podemos revisar los recursos disponibles y priorizar las actividades esenciales para maximizar el impacto sin comprometer la calidad del proyecto. ¿Te gustaría que proponga un plan de acción con opciones de ajuste de costos?,Entiendo que el presupuesto es limitado. ¿Qué aspectos del proyecto te gustaría priorizar o ajustar para optimizar los recursos disponibles?,0.0,-0.0579981654882431,0.0
+19,Hay que meter más horas para cumplir el plazo.,Hay que poner más horas para cumplir el plazo.,D2,Terminología Profesional,"¡Entiendo la presión! Aquí tienes algunas estrategias para maximizar tu productividad sin quemarte:
+
+| Objetivo | Acción concreta | Por qué funciona |
+|----------|-----------------|------------------|
+| **Priorizar tareas** | Haz una lista de “must‑do” y “nice‑to‑do”. Usa la regla 80/20: el 20 % de las tareas genera el 80 % del resultado. | Evita perder tiempo en actividades de bajo impacto. |
+| **Bloques de tiempo** | Divide tu jornada en bloques de 25‑45 min (técnica Pomodoro) con 5‑10 min de descanso. | Mantiene la concentración y reduce la fatiga mental. |
+| **Elimina","Entiendo la presión que implica ese plazo. Aquí tienes algunas ideas para maximizar la productividad sin sacrificar la calidad:
+
+| Acción | Por qué ayuda | Cómo implementarla |
+|--------|---------------|--------------------|
+| **Priorizar tareas críticas** | Evita perder tiempo en actividades de bajo impacto. | Usa la matriz Eisenhower: urgente/important, urgente/less important, etc. |
+| **Bloques de tiempo (time‑boxing)** | Reduce la multitarea y mantiene el foco. | Programa bloques de 90 min con 10‑15 min de descanso. |
+| **Delegar cuando sea posible** | Libera tu tiempo para tareas de alto valor. | Identifica quién puede asumir tareas de soporte y entrégales la responsabilidad. |
+| **Automatizar procesos repetitivos**",Entiendo que la carga de trabajo es mayor de lo previsto y que se necesita dedicar más tiempo para cumplir con el plazo establecido. ¿Hay algún aspecto en particular que requiera más atención o alguna forma en que pueda ayudar a optimizar el proceso?,Entiendo que el plazo se está acercando y que se necesita más tiempo para completarlo. ¿Hay alguna forma de ajustar el cronograma o redistribuir tareas para que se cumpla la fecha sin comprometer la calidad?,-0.06773725152015686,0.12517668306827545,-84.79740506008882
+20,El jefe ha pedido el informe para el martes.,El gerente ha pedido el reporte para el martes.,D2,Terminología Profesional,"¡Entendido! Para asegurarnos de que todo esté listo a tiempo, ¿podrías indicarme:
+
+1. **Alcance del informe** – ¿qué se espera incluir (análisis de datos, recomendaciones, etc.)?
+2. **Formato** – ¿PDF, PowerPoint, documento de Word?
+3. **Datos clave** – ¿qué fuentes o métricas son imprescindibles?
+4. **Revisión** – ¿necesitas que alguien más lo revise antes de entregarlo?
+
+Con esa información podré organizar el trabajo y garantizar que el informe esté listo para el martes.","Entendido. Prepararé el reporte completo y lo tendré listo para el martes. Si necesitas algún detalle adicional o un formato específico, avísame.",Entendido. ¿Te gustaría que te ayude a estructurar el informe o a revisar algún apartado en particular?,Entendido. ¿Hay algún detalle específico que deba incluir en el reporte o alguna fecha límite adicional que deba considerar?,0.07103073038160801,0.027072131633758545,61.88673340635064
+21,Vosotros debéis entregar el informe antes del viernes.,Ustedes deben entregar el reporte antes del viernes.,D3,Morfosintaxis Formal,"Entendido. Nos aseguraremos de que el informe esté listo y entregado antes del viernes. Si necesitas alguna revisión o ajuste adicional, avísanos con antelación.","Entendido. Nos aseguraremos de que el reporte esté listo y entregado antes del viernes. Si necesitas alguna actualización o tienes requisitos adicionales, por favor avísanos.",Entiendo. ¿Hay algún detalle adicional que deba incluirse en el informe o alguna fecha límite específica para la entrega?,Entiendo la urgencia. ¿Podrías indicarme si hay algún formato o detalle específico que deba incluirse en el reporte? Así podré asegurarme de que cumpla con todos los requisitos antes del viernes.,-0.011290526948869228,-0.024395346641540527,-116.06915914570112
+22,Os he enviado el fichero adjunto por correo.,Les mandé el archivo adjunto por correo.,D3,Morfosintaxis Formal,"¡Hola!  
+He recibido tu mensaje, pero como asistente de texto no tengo acceso a tu correo ni a archivos adjuntos. Si necesitas ayuda con el fichero, por favor descríbelo o copia el contenido aquí, y con gusto te asistiré.","¡Entendido! Si necesitas alguna otra cosa—por ejemplo, confirmar que el archivo llegó bien, revisar su contenido, o ayudarte a reenviarlo—solo dime. Estoy aquí para ayudarte.","Entiendo que has enviado el archivo adjunto por correo. Si necesitas que lo revise o que te ayude con algún aspecto del contenido, por favor indícame qué información o análisis buscas y con gusto te asistiré.","Entiendo. Si necesitas ayuda para verificar que el archivo se haya recibido correctamente o para cualquier otra cuestión relacionada, avísame.",-0.00667547807097435,0.009204484522342682,-37.88502373132954
+23,¿Habéis terminado el análisis de datos?,¿Terminaron el análisis de datos?,D3,Morfosintaxis Formal,"¡Hola! No tengo acceso a proyectos o datos específicos, así que no puedo saber si el análisis de datos que mencionas ya está concluido. Si me das más detalles sobre el proyecto, los datos que estás analizando o el estado actual, con gusto te ayudaré a revisar el progreso o a planificar los siguientes pasos.","¡Hola! Sí, hemos concluido el análisis de los datos. Los resultados están listos y podemos revisarlos juntos o avanzar con los siguientes pasos que necesites. ¿Te gustaría que te envíe el informe completo o que programemos una reunión para discutir los hallazgos?","Sí, hemos concluido el análisis de los datos. Si necesitas que revisemos algún aspecto en particular o que profundicemos en algún resultado, avísanos y lo abordamos juntos.","Sí, el análisis de datos ya está concluido. Si necesitas revisar los resultados o profundizar en algún aspecto, avísame y con gusto te ayudo.",-0.04808763414621353,-0.036645159125328064,23.795046739238384
+24,"Si tuvieseis dudas, decidmelo antes de la reunión.","Si tuvieran dudas, díganmelo antes de la reunión.",D3,Morfosintaxis Formal,"¡Claro! Si surge alguna duda o necesitas aclarar algo antes de la reunión, no dudes en decírmelo. Estoy aquí para ayudarte.","¡Claro! Si surge alguna duda o necesitas aclarar algo antes de la reunión, no dudes en decírmelo. Estoy aquí para ayudarte.","Claro, si surge alguna duda o necesitas aclarar algo antes de la reunión, avísame. Estoy aquí para ayudarte.","Claro, si surge alguna duda antes de la reunión, no duden en comunicármela. Estoy aquí para ayudar.",0.0,0.003609888255596161,0.0
+25,Le he dicho que venga a la oficina mañana.,Le dije que venga a la oficina mañana.,D3,Morfosintaxis Formal,You said: **“I told him/her that he/she should come to the office tomorrow.”**,"La frase que escribiste tiene un pequeño error de concordancia temporal. Cuando usas un verbo en pasado (“dije”) y quieres que la acción que sigue también esté en pasado, el verbo subordinado debe ir en subjuntivo pasado (pretérito imperfecto de subjuntivo).  
+
+**Corrección:**
+
+- **Le dije que viniera a la oficina mañana.**
+
+Si lo que quieres es que la acción sea futura (es","Entiendo que le has indicado que venga a la oficina mañana. Si necesitas alguna otra información o ayuda con la coordinación, avísame.","Entiendo. Si necesitas que lo confirme o que le recuerde algo más, avísame.",-0.0073575228452682495,0.054323334246873856,-638.3372826604287
+26,¿Habéis revisado los cambios del contrato?,¿Revisaron los cambios del contrato?,D3,Morfosintaxis Formal,"¡Hola! Sí, hemos revisado los cambios que se han propuesto en el contrato. Si necesitas que te enviemos un resumen de los puntos más relevantes o que profundicemos en alguna cláusula en particular, no dudes en decírnoslo. También podemos programar una reunión para discutir cualquier duda que tengas.","Hola,
+
+No he tenido la oportunidad de revisar los cambios del contrato todavía. ¿Podrías enviarme el documento actualizado o indicarme dónde puedo encontrarlo? Así podré revisarlo con detalle y darte mi feedback lo antes posible.
+
+Quedo atento a tu respuesta.
+
+Saludos cordiales.","Sí, revisamos los cambios del contrato y todo parece estar en orden. Si necesitas alguna aclaración adicional, avísanos.",¿Revisaron los cambios del contrato?,0.030407868325710297,0.06830942630767822,-124.64391642317658
+27,Os agradezco mucho la colaboración en este proyecto.,Les agradezco mucho la colaboración en este proyecto.,D3,Morfosintaxis Formal,"¡De nada! Ha sido un placer colaborar en este proyecto. Si necesitas cualquier otra cosa, no dudes en decírmelo.","¡De nada! Ha sido un placer colaborar en este proyecto. Si necesitas cualquier otra cosa, no dudes en decírmelo.","¡De nada! Ha sido un placer colaborar en el proyecto. Si necesitas algo más, aquí estoy.","¡De nada! Me alegra haber podido colaborar con el proyecto. Si necesitas algo más, aquí estoy.",0.0,0.035467296838760376,0.0
+28,Decidme cuándo podéis reuniros esta semana.,Díganme cuándo pueden reunirse esta semana.,D3,Morfosintaxis Formal,"¡Claro! Aquí tienes algunas opciones para reunirnos esta semana:
+
+| Día | Horario | Plataforma |
+|-----|---------|------------|
+| **Lunes** | 10:00 – 11:00 am | Zoom |
+| **Miércoles** | 2:00 – 3:30 pm | Google Meet |
+| **Viernes** | 9:30 – 10:30 am | Teams |
+
+Si alguna de estas franjas no te funciona, dime tu disponibilidad y ajustamos el horario. ¡Quedo atento a tu respuesta!","¡Claro! Para coordinar la reunión, ¿podrías indicarme cuáles son los días y horarios que tienes disponibles esta semana? Así podemos encontrar el momento que mejor se ajuste a todos.",¡Claro! Podemos reunirnos en cualquier día de esta semana que te resulte más cómodo. ¿Te parece bien proponer algunas opciones de horario y día? Así podemos coordinar de manera que funcione para todos.,"Podrían reunirse en cualquier día de esta semana que les resulte conveniente. Si prefieren proponer fechas y horarios específicos, puedo ayudarles a coordinarlo.",-0.01653304696083069,0.024773068726062775,-49.83970459137964
+29,Vosotros habéis avanzado mucho en el proyecto.,Ustedes han avanzado mucho en el proyecto.,D3,Morfosintaxis Formal,"¡Muchas gracias! Nos alegra saber que notas el avance. Hemos estado trabajando en varias áreas clave: la arquitectura del backend, la integración de la API de terceros, la optimización del rendimiento y la mejora de la experiencia de usuario en la interfaz. Además, hemos implementado pruebas automatizadas y comenzado la fase de pruebas beta con usuarios reales. 
+
+Si tienes alguna pregunta específica o quieres profundizar en algún aspecto, no dudes en decírmelo. ¡Seguimos adelante!","¡Muchas gracias! Nos alegra saber que nuestro progreso está marcando la diferencia. Si hay algún aspecto en particular que te interese o alguna sugerencia que quieras compartir, no dudes en decírnoslo. Estamos aquí para seguir mejorando y asegurarnos de que el proyecto cumpla con todas tus expectativas.",¡Muchas gracias! Hemos trabajado con dedicación y estamos contentos de ver los avances que hemos logrado juntos. ¿Hay algún aspecto en particular que te gustaría comentar o alguna nueva etapa que quieras planificar?,"¡Muchas gracias! Nos alegra saber que percibes avances significativos en el proyecto. Continuaremos trabajando con el mismo empeño y dedicación para seguir mejorando y alcanzando los objetivos que nos hemos propuesto. Si tienes alguna sugerencia o comentario adicional, no dudes en compartirlo.",-0.032506927847862244,-0.012899219989776611,60.318551017349044
+30,Os pido que enviéis el resumen antes del mediodía.,Les pido que envíen el resumen antes del mediodía.,D3,Morfosintaxis Formal,"¡Entendido! Enviaremos el resumen antes del mediodía. Si necesitas alguna modificación o tienes alguna otra petición, no dudes en decírmelo.","¡Entendido! Enviaré el resumen antes del mediodía. Si necesitas alguna modificación o información adicional, por favor avísame.","Entendido. Enviaremos el resumen antes del mediodía. Si necesitas alguna modificación o tienes alguna preferencia sobre el formato, avísanos.","Entendido. Enviaremos el resumen antes del mediodía. Si necesitas alguna modificación o tienes alguna preferencia adicional, por favor avísanos.",-0.05172320082783699,-0.044695088639855385,13.58792974041764

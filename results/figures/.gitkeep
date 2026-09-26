@@ -1,0 +1,3 @@
+# Este directorio almacena los gráficos PNG generados por run_experiment.py
+# y run_iem_analysis.py. Los archivos están excluidos del control de versiones
+# mediante las reglas definidas en .gitignore.

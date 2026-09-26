@@ -1,0 +1,7 @@
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+results/data/resultados_parciales.csv
+.DS_Store

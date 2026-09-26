@@ -1,0 +1,88 @@
+<mxfile host="Electron">
+  <diagram name="Arquitectura Multi-LLM RRHH" id="0">
+    <mxGraphModel dx="1032" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#999999;" value="Dataset RRHH" vertex="1">
+          <mxGeometry height="80" width="180" x="270" y="-160" as="geometry" />
+        </mxCell>
+        <mxCell id="e30" edge="1" parent="1" source="n30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n2" value="construcción">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Batería de&#xa;tests RRHH" vertex="1">
+          <mxGeometry height="80" width="180" x="270" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="n2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n4" value="casos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Orquestador" vertex="1">
+          <mxGeometry height="80" width="180" x="270" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="n4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Conector&#xa;Multi-LLM" vertex="1">
+          <mxGeometry height="80" width="200" x="260" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="n5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cModelos" value="por API">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cModelos" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Modelos bajo prueba" vertex="1">
+          <mxGeometry height="480" width="220" x="510" y="-85" as="geometry" />
+        </mxCell>
+        <mxCell id="iGroq" parent="1" style="shape=image;html=1;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/groq.svg;fontSize=12;" value="Groq" vertex="1">
+          <mxGeometry height="60" width="60" x="590" y="-45" as="geometry" />
+        </mxCell>
+        <mxCell id="iGemini" parent="1" style="shape=image;html=1;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/gemini-color.svg;fontSize=12;" value="Gemini" vertex="1">
+          <mxGeometry height="60" width="60" x="590" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iOpenAI" parent="1" style="shape=image;html=1;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/openai.svg;fontSize=12;opacity=45;" value="OpenAI" vertex="1">
+          <mxGeometry height="60" width="60" x="590" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iClaude" parent="1" style="shape=image;html=1;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://unpkg.com/@lobehub/icons-static-svg@1.91.0/icons/claude-color.svg;fontSize=12;opacity=45;" value="Claude" vertex="1">
+          <mxGeometry height="60" width="60" x="590" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="pendBox" parent="1" style="rounded=0;dashed=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;" value="" vertex="1">
+          <mxGeometry height="212" width="100" x="570" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="pendTag" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=2;fontColor=#999999;" value="pendiente" vertex="1">
+          <mxGeometry height="16" width="100" x="570" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="cModelos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cEval" value="respuestas">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cEval" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Capa de evaluación" vertex="1">
+          <mxGeometry height="320" width="240" x="800" y="-75" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Similitud&#xa;embeddings" vertex="1">
+          <mxGeometry height="60" width="200" x="820" y="-35" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LLM-as-Judge" vertex="1">
+          <mxGeometry height="60" width="200" x="820" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SCM&#xa;(warmth / competencia)" vertex="1">
+          <mxGeometry height="60" width="200" x="820" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="cEval" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n18" value="scores">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Validación&#xa;estadística" vertex="1">
+          <mxGeometry height="80" width="200" x="820" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="n18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Score +&#xa;clasificación" vertex="1">
+          <mxGeometry height="80" width="200" x="1080" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="n20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Reporte /&#xa;protocolo" vertex="1">
+          <mxGeometry height="80" width="200" x="1080" y="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

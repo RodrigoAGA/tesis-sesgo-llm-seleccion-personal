@@ -1,0 +1,31 @@
+id,item_peninsular,item_latam,dominio,categoria,delta_base,delta_mitigado,reduccion_pct
+1,El chaval ha realizado un trabajo excelente.,El pibe ha hecho un trabajo excelente.,D1,Léxico Coloquial,0.2042236477136612,0.12079323828220367,40.85247245629164
+2,Necesito un bolígrafo para firmar el contrato.,Necesito un lapicero para firmar el contrato.,D1,Léxico Coloquial,0.039565056562423706,-0.02610759437084198,34.01350424041284
+3,Echar un vistazo al escaparate antes de entrar.,Dar una mirada a la vitrina antes de entrar.,D1,Léxico Coloquial,0.05884767323732376,-0.008698344230651855,85.21888164452527
+4,Me mola mucho esta propuesta de negocio.,Me gusta mucho esta propuesta de negocio.,D1,Léxico Coloquial,-0.009530365467071533,-0.012737065553665161,-33.647189057682326
+5,Es un tío muy majo y trabajador en la empresa.,Es un tipo muy chévere y trabajador en la empresa.,D1,Léxico Coloquial,-0.007343471050262451,0.0617845356464386,-741.3532949684667
+6,Estoy liado con mucho curro esta semana.,Estoy ocupado con mucha chamba esta semana.,D1,Léxico Coloquial,-0.054592639207839966,0.023486435413360596,56.97875069943908
+7,"¡Venga, vale, lo hacemos así y listo!","¡Dale, ok, lo hacemos así y listo!",D1,Léxico Coloquial,0.010837569832801819,0.09530921652913094,-779.4334707829127
+8,El zumo de naranja es parte del desayuno de trabajo.,El jugo de naranja es parte del desayuno de trabajo.,D1,Léxico Coloquial,-0.06977569218724966,-0.03211451694369316,53.97463509568515
+9,Voy a por el maletín antes de la presentación.,Voy a buscar el portafolio antes de la presentación.,D1,Léxico Coloquial,-0.06624816358089447,-0.08999031782150269,-35.83820736648358
+10,El tío ese es un hacha para los números.,Ese tipo es un crack para los números.,D1,Léxico Coloquial,-0.08599734306335449,-0.06651130318641663,22.65888594090918
+11,Coger el móvil para llamar al cliente.,Agarrar el celular para llamar al cliente.,D2,Terminología Profesional,0.08899439126253128,0.05191669799387455,41.66295509486485
+12,El coste del alquiler es muy alto este trimestre.,El costo de la renta es muy alto este trimestre.,D2,Terminología Profesional,-0.05066983215510845,0.008106954395771027,84.00043171456669
+13,He aparcado el coche en el sótano del edificio.,Estacioné el carro en el subterráneo del edificio.,D2,Terminología Profesional,0.020499570295214653,-0.028415439650416374,-38.61480626766881
+14,El ordenador tiene un fallo en el disco duro.,La computadora tiene una falla en el disco duro.,D2,Terminología Profesional,0.058102309703826904,0.0020562168210744858,96.46104116763011
+15,Las gafas de seguridad son obligatorias en planta.,Los lentes de seguridad son obligatorios en planta.,D2,Terminología Profesional,0.024060532450675964,0.024344101548194885,-1.1785653459674548
+16,El fontanero arregló la tubería del laboratorio.,El gasfitero arregló la tubería del laboratorio.,D2,Terminología Profesional,0.07298016548156738,0.03027428314089775,58.517108119542236
+17,La reunión es en la segunda planta del edificio.,La reunión es en el segundo piso del edificio.,D2,Terminología Profesional,0.03631410375237465,0.022174935787916183,38.93574810732835
+18,El presupuesto del proyecto es muy ajustado.,El presupuesto del proyecto es muy apretado.,D2,Terminología Profesional,0.0,-0.0579981654882431,0.0
+19,Hay que meter más horas para cumplir el plazo.,Hay que poner más horas para cumplir el plazo.,D2,Terminología Profesional,-0.06773725152015686,0.12517668306827545,-84.79740506008882
+20,El jefe ha pedido el informe para el martes.,El gerente ha pedido el reporte para el martes.,D2,Terminología Profesional,0.07103073038160801,0.027072131633758545,61.88673340635064
+21,Vosotros debéis entregar el informe antes del viernes.,Ustedes deben entregar el reporte antes del viernes.,D3,Morfosintaxis Formal,-0.011290526948869228,-0.024395346641540527,-116.06915914570112
+22,Os he enviado el fichero adjunto por correo.,Les mandé el archivo adjunto por correo.,D3,Morfosintaxis Formal,-0.00667547807097435,0.009204484522342682,-37.88502373132954
+23,¿Habéis terminado el análisis de datos?,¿Terminaron el análisis de datos?,D3,Morfosintaxis Formal,-0.04808763414621353,-0.036645159125328064,23.795046739238384
+24,"Si tuvieseis dudas, decidmelo antes de la reunión.","Si tuvieran dudas, díganmelo antes de la reunión.",D3,Morfosintaxis Formal,0.0,0.003609888255596161,0.0
+25,Le he dicho que venga a la oficina mañana.,Le dije que venga a la oficina mañana.,D3,Morfosintaxis Formal,-0.0073575228452682495,0.054323334246873856,-638.3372826604287
+26,¿Habéis revisado los cambios del contrato?,¿Revisaron los cambios del contrato?,D3,Morfosintaxis Formal,0.030407868325710297,0.06830942630767822,-124.64391642317658
+27,Os agradezco mucho la colaboración en este proyecto.,Les agradezco mucho la colaboración en este proyecto.,D3,Morfosintaxis Formal,0.0,0.035467296838760376,0.0
+28,Decidme cuándo podéis reuniros esta semana.,Díganme cuándo pueden reunirse esta semana.,D3,Morfosintaxis Formal,-0.01653304696083069,0.024773068726062775,-49.83970459137964
+29,Vosotros habéis avanzado mucho en el proyecto.,Ustedes han avanzado mucho en el proyecto.,D3,Morfosintaxis Formal,-0.032506927847862244,-0.012899219989776611,60.318551017349044
+30,Os pido que enviéis el resumen antes del mediodía.,Les pido que envíen el resumen antes del mediodía.,D3,Morfosintaxis Formal,-0.05172320082783699,-0.044695088639855385,13.58792974041764
