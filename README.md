@@ -83,9 +83,6 @@ PET: 15 de 30 ítems reducen la diferencia y 15 la aumentan (mediana de
 cuando la diferencia base es cercana a cero, por lo que se reportan
 magnitudes absolutas.
 
-Los notebooks de `notebooks/` son exploración inicial y contienen valores
-simulados; no deben leerse como resultados.
-
 ---
 
 ## Requisitos Previos
@@ -168,8 +165,7 @@ tesis-sesgo-llm-seleccion-personal/
 ├── corpus/corpus_v2.py          # 30 pares de estímulos del experimento dialectal
 ├── analysis/iem.py              # compute_iem() con Kruskal-Wallis
 ├── visualization/plots.py       # Gráficos
-├── notebooks/                   # Exploración inicial (valores simulados)
-├── figuras/                     # Diagramas de arquitectura y figuras de la tesis
+├── figuras/                     # Diagramas de arquitectura
 └── results/                     # Datos y gráficos de la corrida piloto
 ```
 
