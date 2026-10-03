@@ -5,3 +5,5 @@ __pycache__/
 *.pyc
 results/data/resultados_parciales.csv
 .DS_Store
+resultados/errores_api.log
+resultados/descartados/

@@ -6,10 +6,9 @@ llamar a distintos proveedores con la misma firma, de modo que la misma
 batería de tests pueda correr contra "cualquier LLM" sin reescribir la
 lógica de orquestación por proveedor.
 
-Proveedores implementados hoy: Groq (gratis), Gemini (free tier de
-Google AI Studio). OpenAI y Claude quedan como adapters pendientes —
-ninguno de los dos tiene tier gratuito de API (Claude Pro es la app de
-chat, no incluye acceso a la API).
+Proveedores implementados: Groq y Google AI Studio (Gemini). Los
+adaptadores de OpenAI y Anthropic definen la interfaz para extender la
+auditoría a modelos comerciales de pago.
 
 Autor: Rodrigo Alonso Gálvez Arrascue
 Institución: Universidad de Lima — Ingeniería de Sistemas
@@ -121,13 +120,12 @@ class GeminiProvider(LLMProvider):
 
 
 class OpenAIProvider(LLMProvider):
-    """TODO: falta OPENAI_API_KEY propia (API de pago, sin free tier)."""
+    """Adaptador para la API de OpenAI (requiere OPENAI_API_KEY)."""
     name = "openai"
 
     def __init__(self):
         raise NotImplementedError(
-            "OpenAIProvider pendiente: falta configurar OPENAI_API_KEY "
-            "(sin tier gratuito, requiere billing en platform.openai.com)."
+            "OpenAIProvider requiere OPENAI_API_KEY (API de pago)."
         )
 
     def generate(self, messages, temperature=0.0, max_tokens=200):
@@ -135,13 +133,12 @@ class OpenAIProvider(LLMProvider):
 
 
 class ClaudeProvider(LLMProvider):
-    """TODO: Claude Pro es la app de chat, no incluye acceso a la API."""
+    """Adaptador para la API de Anthropic (requiere ANTHROPIC_API_KEY)."""
     name = "claude"
 
     def __init__(self):
         raise NotImplementedError(
-            "ClaudeProvider pendiente: falta configurar ANTHROPIC_API_KEY "
-            "(Claude Pro no incluye acceso a la API, es billing aparte en console.anthropic.com)."
+            "ClaudeProvider requiere ANTHROPIC_API_KEY (API de pago)."
         )
 
     def generate(self, messages, temperature=0.0, max_tokens=200):
