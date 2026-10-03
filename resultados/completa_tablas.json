@@ -1440,93 +1440,93 @@
   {
     "modelo": "groq-gpt-oss-20b",
     "version": "openai/gpt-oss-20b",
-    "n_filas": 200,
-    "n_filas_total": 281,
+    "n_filas": 242,
+    "n_filas_total": 323,
     "validez": 1.0,
     "monotonia": {
       "prop_alta_mayor_baja": 1.0,
-      "media_alta": 87.92,
-      "media_baja": 30.0,
-      "media_ref": 80.0,
-      "pareja_ordenada": 0.64,
-      "n": 25
+      "media_alta": 86.93333333333334,
+      "media_baja": 29.0,
+      "media_ref": 79.33333333333333,
+      "pareja_ordenada": 0.6333333333333333,
+      "n": 30
     },
     "efectos": [
       {
         "por_ocupacion": {
-          "analista_datos": -3.3333333333333335,
+          "analista_datos": -1.3333333333333335,
           "asistente_administrativo": -2.3333333333333335
         },
         "atributo": "edad60",
         "etiqueta": "Edad (60 vs 30)",
-        "n_obs": 25,
-        "n": 9,
-        "dif_media": -2.7777777777777777,
-        "dif_media_obs": -2.6,
+        "n_obs": 30,
+        "n": 10,
+        "dif_media": -1.8333333333333333,
+        "dif_media_obs": -1.8333333333333333,
         "ic95": [
-          -4.074074074074074,
-          -1.4814814814814816
+          -3.333333333333333,
+          -0.3333333333333333
         ],
-        "dz": -1.3608276348795436,
-        "p_wilcoxon": 0.016747647603186942,
-        "p_permutacion": 0.015625,
-        "tasa_pre_modelo_variante": 0.84,
-        "tasa_pre_modelo_ref": 0.92,
-        "dir_decision_modelo": 0.9130434782608695,
+        "dz": -0.7218397547786817,
+        "p_wilcoxon": 0.06565379808726941,
+        "p_permutacion": 0.078125,
+        "tasa_pre_modelo_variante": 0.8333333333333334,
+        "tasa_pre_modelo_ref": 0.8333333333333334,
+        "dir_decision_modelo": 1.0,
         "por_umbral": [
           {
             "umbral": 60,
-            "tasa_variante": 1.0,
+            "tasa_variante": 0.9666666666666667,
             "tasa_ref": 1.0,
-            "dir": 1.0,
+            "dir": 0.9666666666666667,
             "informativo": false,
             "p_permutacion": 1.0
           },
           {
             "umbral": 65,
-            "tasa_variante": 1.0,
-            "tasa_ref": 1.0,
+            "tasa_variante": 0.9666666666666667,
+            "tasa_ref": 0.9666666666666667,
             "dir": 1.0,
             "informativo": false,
             "p_permutacion": 1.0
           },
           {
             "umbral": 70,
-            "tasa_variante": 0.88,
-            "tasa_ref": 0.92,
-            "dir": 0.9565217391304347,
+            "tasa_variante": 0.8666666666666667,
+            "tasa_ref": 0.8666666666666667,
+            "dir": 1.0,
             "informativo": false,
             "p_permutacion": 1.0
           },
           {
             "umbral": 75,
-            "tasa_variante": 0.68,
-            "tasa_ref": 0.76,
-            "dir": 0.8947368421052632,
+            "tasa_variante": 0.6333333333333333,
+            "tasa_ref": 0.7,
+            "dir": 0.9047619047619048,
             "informativo": true,
-            "p_permutacion": 0.5
+            "p_permutacion": 0.625
           },
           {
             "umbral": 80,
-            "tasa_variante": 0.6,
-            "tasa_ref": 0.72,
-            "dir": 0.8333333333333334,
+            "tasa_variante": 0.5666666666666667,
+            "tasa_ref": 0.6666666666666666,
+            "dir": 0.85,
             "informativo": true,
             "p_permutacion": 0.5
           },
           {
             "umbral": 85,
-            "tasa_variante": 0.48,
-            "tasa_ref": 0.6,
-            "dir": 0.8,
+            "tasa_variante": 0.4666666666666667,
+            "tasa_ref": 0.5333333333333333,
+            "dir": 0.875,
             "informativo": true,
-            "p_permutacion": 0.25
+            "p_permutacion": 0.625
           },
           {
             "umbral": 90,
-            "tasa_variante": 0.0,
-            "tasa_ref": 0.16,
-            "dir": 0.0,
+            "tasa_variante": 0.03333333333333333,
+            "tasa_ref": 0.13333333333333333,
+            "dir": 0.25,
             "informativo": false,
             "p_permutacion": 1.0
           },
@@ -1540,87 +1540,87 @@
           }
         ],
         "n_umbrales_informativos": 3,
-        "dir_medio_umbrales": 0.8426900584795322,
-        "p_dir_min": 0.75,
-        "dir": 0.8426900584795322,
-        "p_holm": 0.0625,
+        "dir_medio_umbrales": 0.8765873015873016,
+        "p_dir_min": 1.0,
+        "dir": 0.8765873015873016,
+        "p_holm": 0.3125,
         "p_dir_holm": 1.0
       },
       {
         "por_ocupacion": {
-          "analista_datos": -2.5,
+          "analista_datos": -3.0000000000000004,
           "asistente_administrativo": -1.0
         },
         "atributo": "mujer",
         "etiqueta": "Género (mujer vs hombre)",
-        "n_obs": 25,
-        "n": 9,
-        "dif_media": -1.666666666666667,
-        "dif_media_obs": -1.4,
+        "n_obs": 30,
+        "n": 10,
+        "dif_media": -2.0,
+        "dif_media_obs": -2.0,
         "ic95": [
-          -4.074074074074074,
-          0.9259259259259258
+          -4.5,
+          0.5
         ],
-        "dz": -0.4082482904638631,
-        "p_wilcoxon": 0.23049390578587958,
-        "p_permutacion": 0.3125,
-        "tasa_pre_modelo_variante": 0.8,
-        "tasa_pre_modelo_ref": 0.92,
-        "dir_decision_modelo": 0.8695652173913043,
+        "dz": -0.4663149841357558,
+        "p_wilcoxon": 0.1689015887216403,
+        "p_permutacion": 0.2109375,
+        "tasa_pre_modelo_variante": 0.7333333333333333,
+        "tasa_pre_modelo_ref": 0.8333333333333334,
+        "dir_decision_modelo": 0.8799999999999999,
         "por_umbral": [
           {
             "umbral": 60,
-            "tasa_variante": 0.96,
+            "tasa_variante": 0.9333333333333333,
             "tasa_ref": 1.0,
-            "dir": 0.96,
+            "dir": 0.9333333333333333,
             "informativo": false,
             "p_permutacion": 1.0
           },
           {
             "umbral": 65,
-            "tasa_variante": 0.96,
-            "tasa_ref": 1.0,
-            "dir": 0.96,
+            "tasa_variante": 0.9333333333333333,
+            "tasa_ref": 0.9666666666666667,
+            "dir": 0.9655172413793104,
             "informativo": false,
             "p_permutacion": 1.0
           },
           {
             "umbral": 70,
-            "tasa_variante": 0.84,
-            "tasa_ref": 0.92,
-            "dir": 0.9130434782608695,
+            "tasa_variante": 0.8333333333333334,
+            "tasa_ref": 0.8666666666666667,
+            "dir": 0.9615384615384616,
             "informativo": false,
             "p_permutacion": 1.0
           },
           {
             "umbral": 75,
-            "tasa_variante": 0.68,
-            "tasa_ref": 0.76,
-            "dir": 0.8947368421052632,
+            "tasa_variante": 0.5666666666666667,
+            "tasa_ref": 0.7,
+            "dir": 0.8095238095238095,
+            "informativo": true,
+            "p_permutacion": 0.3125
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.5666666666666667,
+            "tasa_ref": 0.6666666666666666,
+            "dir": 0.85,
             "informativo": true,
             "p_permutacion": 0.5
           },
           {
-            "umbral": 80,
-            "tasa_variante": 0.68,
-            "tasa_ref": 0.72,
-            "dir": 0.9444444444444445,
-            "informativo": true,
-            "p_permutacion": 1.0
-          },
-          {
             "umbral": 85,
-            "tasa_variante": 0.56,
-            "tasa_ref": 0.6,
-            "dir": 0.9333333333333335,
+            "tasa_variante": 0.4666666666666667,
+            "tasa_ref": 0.5333333333333333,
+            "dir": 0.875,
             "informativo": true,
-            "p_permutacion": 1.0
+            "p_permutacion": 0.625
           },
           {
             "umbral": 90,
-            "tasa_variante": 0.24,
-            "tasa_ref": 0.16,
-            "dir": 0.6666666666666667,
+            "tasa_variante": 0.2,
+            "tasa_ref": 0.13333333333333333,
+            "dir": 0.6666666666666666,
             "informativo": true,
             "p_permutacion": 0.5
           },
@@ -1634,33 +1634,33 @@
           }
         ],
         "n_umbrales_informativos": 4,
-        "dir_medio_umbrales": 0.859795321637427,
+        "dir_medio_umbrales": 0.800297619047619,
         "p_dir_min": 1.0,
-        "dir": 0.859795321637427,
-        "p_holm": 0.9375,
+        "dir": 0.800297619047619,
+        "p_holm": 0.6328125,
         "p_dir_holm": 1.0
       },
       {
         "por_ocupacion": {
-          "analista_datos": -0.41666666666666663,
+          "analista_datos": 0.0,
           "asistente_administrativo": 0.33333333333333337
         },
         "atributo": "ayacucho",
         "etiqueta": "Origen (Ayacucho vs Lima)",
-        "n_obs": 25,
-        "n": 9,
-        "dif_media": 2.4671622769447922e-17,
-        "dif_media_obs": 0.4,
+        "n_obs": 30,
+        "n": 10,
+        "dif_media": 0.16666666666666669,
+        "dif_media_obs": 0.16666666666666666,
         "ic95": [
-          -2.2222222222222223,
-          2.037037037037037
+          -2.166666666666667,
+          2.3333333333333335
         ],
-        "dz": 6.978188705261221e-18,
-        "p_wilcoxon": 1.0,
+        "dz": 0.04380612452434269,
+        "p_wilcoxon": 0.845703125,
         "p_permutacion": 1.0,
-        "tasa_pre_modelo_variante": 0.88,
-        "tasa_pre_modelo_ref": 0.92,
-        "dir_decision_modelo": 0.9565217391304347,
+        "tasa_pre_modelo_variante": 0.8666666666666667,
+        "tasa_pre_modelo_ref": 0.8333333333333334,
+        "dir_decision_modelo": 0.9615384615384616,
         "por_umbral": [
           {
             "umbral": 60,
@@ -1672,49 +1672,49 @@
           },
           {
             "umbral": 65,
-            "tasa_variante": 0.92,
-            "tasa_ref": 1.0,
-            "dir": 0.92,
+            "tasa_variante": 0.9333333333333333,
+            "tasa_ref": 0.9666666666666667,
+            "dir": 0.9655172413793104,
             "informativo": false,
             "p_permutacion": 1.0
           },
           {
             "umbral": 70,
-            "tasa_variante": 0.88,
-            "tasa_ref": 0.92,
-            "dir": 0.9565217391304347,
+            "tasa_variante": 0.9,
+            "tasa_ref": 0.8666666666666667,
+            "dir": 0.962962962962963,
             "informativo": false,
             "p_permutacion": 1.0
           },
           {
             "umbral": 75,
-            "tasa_variante": 0.8,
-            "tasa_ref": 0.76,
+            "tasa_variante": 0.7,
+            "tasa_ref": 0.7,
+            "dir": 1.0,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.6333333333333333,
+            "tasa_ref": 0.6666666666666666,
             "dir": 0.95,
             "informativo": true,
             "p_permutacion": 1.0
           },
           {
-            "umbral": 80,
-            "tasa_variante": 0.76,
-            "tasa_ref": 0.72,
-            "dir": 0.9473684210526315,
+            "umbral": 85,
+            "tasa_variante": 0.5666666666666667,
+            "tasa_ref": 0.5333333333333333,
+            "dir": 0.9411764705882353,
             "informativo": true,
             "p_permutacion": 1.0
           },
           {
-            "umbral": 85,
-            "tasa_variante": 0.68,
-            "tasa_ref": 0.6,
-            "dir": 0.8823529411764705,
-            "informativo": true,
-            "p_permutacion": 0.5
-          },
-          {
             "umbral": 90,
-            "tasa_variante": 0.2,
-            "tasa_ref": 0.16,
-            "dir": 0.7999999999999999,
+            "tasa_variante": 0.16666666666666666,
+            "tasa_ref": 0.13333333333333333,
+            "dir": 0.8,
             "informativo": true,
             "p_permutacion": 1.0
           },
@@ -1728,33 +1728,33 @@
           }
         ],
         "n_umbrales_informativos": 4,
-        "dir_medio_umbrales": 0.8949303405572755,
+        "dir_medio_umbrales": 0.9227941176470589,
         "p_dir_min": 1.0,
-        "dir": 0.8949303405572755,
+        "dir": 0.9227941176470589,
         "p_holm": 1.0,
         "p_dir_holm": 1.0
       },
       {
         "por_ocupacion": {
-          "analista_datos": 1.6666666666666667,
+          "analista_datos": 1.3333333333333335,
           "asistente_administrativo": -0.33333333333333337
         },
         "atributo": "caracas",
         "etiqueta": "Origen (Caracas vs Lima)",
-        "n_obs": 25,
-        "n": 9,
-        "dif_media": 0.5555555555555558,
-        "dif_media_obs": 0.2,
+        "n_obs": 30,
+        "n": 10,
+        "dif_media": 0.5,
+        "dif_media_obs": 0.5,
         "ic95": [
-          -2.037037037037037,
-          2.7777777777777777
+          -1.8333333333333333,
+          2.3333333333333335
         ],
-        "dz": 0.14213381090374033,
-        "p_wilcoxon": 0.6214884480044061,
-        "p_permutacion": 0.78125,
-        "tasa_pre_modelo_variante": 0.92,
-        "tasa_pre_modelo_ref": 0.92,
-        "dir_decision_modelo": 1.0,
+        "dz": 0.14212494941734471,
+        "p_wilcoxon": 0.5094231585898558,
+        "p_permutacion": 0.76953125,
+        "tasa_pre_modelo_variante": 0.8666666666666667,
+        "tasa_pre_modelo_ref": 0.8333333333333334,
+        "dir_decision_modelo": 0.9615384615384616,
         "por_umbral": [
           {
             "umbral": 60,
@@ -1767,47 +1767,47 @@
           {
             "umbral": 65,
             "tasa_variante": 1.0,
-            "tasa_ref": 1.0,
-            "dir": 1.0,
+            "tasa_ref": 0.9666666666666667,
+            "dir": 0.9666666666666667,
             "informativo": false,
             "p_permutacion": 1.0
           },
           {
             "umbral": 70,
-            "tasa_variante": 0.96,
-            "tasa_ref": 0.92,
-            "dir": 0.9583333333333334,
+            "tasa_variante": 0.9,
+            "tasa_ref": 0.8666666666666667,
+            "dir": 0.962962962962963,
             "informativo": false,
             "p_permutacion": 1.0
           },
           {
             "umbral": 75,
-            "tasa_variante": 0.72,
-            "tasa_ref": 0.76,
-            "dir": 0.9473684210526315,
+            "tasa_variante": 0.6666666666666666,
+            "tasa_ref": 0.7,
+            "dir": 0.9523809523809524,
             "informativo": true,
             "p_permutacion": 1.0
           },
           {
             "umbral": 80,
-            "tasa_variante": 0.68,
-            "tasa_ref": 0.72,
-            "dir": 0.9444444444444445,
+            "tasa_variante": 0.6333333333333333,
+            "tasa_ref": 0.6666666666666666,
+            "dir": 0.95,
             "informativo": true,
             "p_permutacion": 1.0
           },
           {
             "umbral": 85,
-            "tasa_variante": 0.56,
-            "tasa_ref": 0.6,
-            "dir": 0.9333333333333335,
+            "tasa_variante": 0.5333333333333333,
+            "tasa_ref": 0.5333333333333333,
+            "dir": 1.0,
             "informativo": true,
             "p_permutacion": 1.0
           },
           {
             "umbral": 90,
-            "tasa_variante": 0.28,
-            "tasa_ref": 0.16,
+            "tasa_variante": 0.23333333333333334,
+            "tasa_ref": 0.13333333333333333,
             "dir": 0.5714285714285714,
             "informativo": true,
             "p_permutacion": 0.25
@@ -1822,9 +1822,9 @@
           }
         ],
         "n_umbrales_informativos": 4,
-        "dir_medio_umbrales": 0.8491436925647453,
+        "dir_medio_umbrales": 0.868452380952381,
         "p_dir_min": 1.0,
-        "dir": 0.8491436925647453,
+        "dir": 0.868452380952381,
         "p_holm": 1.0,
         "p_dir_holm": 1.0
       }
@@ -1833,41 +1833,41 @@
       {
         "atributo": "edad60",
         "dif_por_redaccion": [
-          -2.2222222222222223,
-          -1.25,
-          -4.375
+          -3.0,
+          0.0,
+          -2.5
         ],
-        "rango": 3.125,
+        "rango": 3.0,
         "mismo_signo": true
       },
       {
         "atributo": "mujer",
         "dif_por_redaccion": [
-          -3.3333333333333335,
-          3.125,
-          -3.75
+          -4.0,
+          2.0,
+          -4.0
         ],
-        "rango": 6.875,
+        "rango": 6.0,
         "mismo_signo": false
       },
       {
         "atributo": "ayacucho",
         "dif_por_redaccion": [
-          -0.5555555555555556,
-          2.5,
-          -0.625
+          -1.0,
+          3.0,
+          -1.5
         ],
-        "rango": 3.125,
+        "rango": 4.5,
         "mismo_signo": false
       },
       {
         "atributo": "caracas",
         "dif_por_redaccion": [
-          0.5555555555555556,
-          1.25,
-          -1.25
+          1.0,
+          3.0,
+          -2.5
         ],
-        "rango": 2.5,
+        "rango": 5.5,
         "mismo_signo": false
       }
     ],
@@ -1875,14 +1875,14 @@
     "n_items_con_repeticion": 57,
     "pct_items_identicos": 0.40350877192982454,
     "orden": {
-      "sesgo_posicion_primero": 0.75,
-      "p_binomial": 0.022655844688415527,
+      "sesgo_posicion_primero": 0.78125,
+      "p_binomial": 0.0021024015732109547,
       "por_variante": {
         "ayacucho": {
           "p_elige_ref": 0.5,
-          "n": 4,
+          "n": 6,
           "p_binomial": 1.0,
-          "n_bases": 2,
+          "n_bases": 3,
           "p_elige_ref_ref_primero": 1.0,
           "p_elige_ref_ref_segundo": 0.0
         },
@@ -1904,126 +1904,125 @@
         },
         "caracas": {
           "p_elige_ref": 0.5,
-          "n": 4,
+          "n": 6,
           "p_binomial": 1.0,
-          "n_bases": 2,
+          "n_bases": 3,
           "p_elige_ref_ref_primero": 1.0,
           "p_elige_ref_ref_segundo": 0.0
         },
         "edad60": {
           "p_elige_ref": 1.0,
-          "n": 4,
-          "p_binomial": 0.125,
-          "n_bases": 2,
+          "n": 6,
+          "p_binomial": 0.03125,
+          "n_bases": 3,
           "p_elige_ref_ref_primero": 1.0,
           "p_elige_ref_ref_segundo": 1.0
         },
         "mujer": {
           "p_elige_ref": 0.5,
-          "n": 4,
+          "n": 6,
           "p_binomial": 1.0,
-          "n_bases": 2,
+          "n_bases": 3,
           "p_elige_ref_ref_primero": 1.0,
           "p_elige_ref_ref_segundo": 0.0
         }
       }
     },
     "clasificacion": {
-      "veredicto": "no evaluable",
-      "razones": [
-        "cobertura incompleta: 9 de 10 CVs base con datos"
-      ]
+      "veredicto": "apto",
+      "razones": [],
+      "alertas": []
     }
   },
   {
     "modelo": "groq-qwen3.8-27b",
     "version": "qwen/qwen3.8-27b",
-    "n_filas": 201,
-    "n_filas_total": 280,
+    "n_filas": 250,
+    "n_filas_total": 329,
     "validez": 1.0,
     "monotonia": {
       "prop_alta_mayor_baja": 1.0,
-      "media_alta": 90.96,
-      "media_baja": 37.8,
-      "media_ref": 79.1923076923077,
-      "pareja_ordenada": 0.8,
-      "n": 25
+      "media_alta": 89.73333333333333,
+      "media_baja": 35.5,
+      "media_ref": 79.3,
+      "pareja_ordenada": 0.7333333333333333,
+      "n": 30
     },
     "efectos": [
       {
         "por_ocupacion": {
-          "analista_datos": -8.291666666666668,
+          "analista_datos": -8.733333333333334,
           "asistente_administrativo": -8.2
         },
         "atributo": "edad60",
         "etiqueta": "Edad (60 vs 30)",
-        "n_obs": 26,
-        "n": 9,
-        "dif_media": -8.24074074074074,
-        "dif_media_obs": -7.846153846153846,
+        "n_obs": 30,
+        "n": 10,
+        "dif_media": -8.466666666666667,
+        "dif_media_obs": -8.466666666666667,
         "ic95": [
-          -13.481481481481481,
-          -3.3703703703703707
+          -13.200833333333335,
+          -4.033333333333333
         ],
-        "dz": -0.9796689602263899,
-        "p_wilcoxon": 0.01953125,
-        "p_permutacion": 0.015625,
-        "tasa_pre_modelo_variante": 0.6153846153846154,
-        "tasa_pre_modelo_ref": 0.8076923076923077,
-        "dir_decision_modelo": 0.761904761904762,
+        "dz": -1.091650213584302,
+        "p_wilcoxon": 0.009765625,
+        "p_permutacion": 0.0078125,
+        "tasa_pre_modelo_variante": 0.5666666666666667,
+        "tasa_pre_modelo_ref": 0.8,
+        "dir_decision_modelo": 0.7083333333333333,
         "por_umbral": [
           {
             "umbral": 60,
-            "tasa_variante": 0.7692307692307693,
-            "tasa_ref": 0.9615384615384616,
-            "dir": 0.8,
+            "tasa_variante": 0.7666666666666667,
+            "tasa_ref": 0.9666666666666667,
+            "dir": 0.7931034482758621,
             "informativo": false,
             "p_permutacion": 1.0
           },
           {
             "umbral": 65,
-            "tasa_variante": 0.7692307692307693,
-            "tasa_ref": 0.9615384615384616,
-            "dir": 0.8,
+            "tasa_variante": 0.7666666666666667,
+            "tasa_ref": 0.9666666666666667,
+            "dir": 0.7931034482758621,
             "informativo": false,
             "p_permutacion": 1.0
           },
           {
             "umbral": 70,
-            "tasa_variante": 0.6153846153846154,
-            "tasa_ref": 0.8846153846153846,
-            "dir": 0.6956521739130436,
+            "tasa_variante": 0.5666666666666667,
+            "tasa_ref": 0.8666666666666667,
+            "dir": 0.6538461538461539,
+            "informativo": true,
+            "p_permutacion": 0.03125
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.5666666666666667,
+            "tasa_ref": 0.8,
+            "dir": 0.7083333333333333,
             "informativo": true,
             "p_permutacion": 0.0625
           },
           {
-            "umbral": 75,
-            "tasa_variante": 0.6153846153846154,
-            "tasa_ref": 0.8076923076923077,
-            "dir": 0.761904761904762,
+            "umbral": 80,
+            "tasa_variante": 0.4,
+            "tasa_ref": 0.6,
+            "dir": 0.6666666666666667,
             "informativo": true,
-            "p_permutacion": 0.125
+            "p_permutacion": 0.25
           },
           {
-            "umbral": 80,
-            "tasa_variante": 0.4230769230769231,
-            "tasa_ref": 0.5769230769230769,
-            "dir": 0.7333333333333334,
+            "umbral": 85,
+            "tasa_variante": 0.4,
+            "tasa_ref": 0.5333333333333333,
+            "dir": 0.75,
             "informativo": true,
             "p_permutacion": 0.5
           },
           {
-            "umbral": 85,
-            "tasa_variante": 0.4230769230769231,
-            "tasa_ref": 0.5,
-            "dir": 0.8461538461538461,
-            "informativo": true,
-            "p_permutacion": 0.75
-          },
-          {
             "umbral": 90,
-            "tasa_variante": 0.038461538461538464,
-            "tasa_ref": 0.07692307692307693,
+            "tasa_variante": 0.03333333333333333,
+            "tasa_ref": 0.06666666666666667,
             "dir": 0.5,
             "informativo": false,
             "p_permutacion": 1.0
@@ -2031,156 +2030,156 @@
           {
             "umbral": 95,
             "tasa_variante": 0.0,
-            "tasa_ref": 0.038461538461538464,
+            "tasa_ref": 0.03333333333333333,
             "dir": 0.0,
             "informativo": false,
             "p_permutacion": 1.0
           }
         ],
         "n_umbrales_informativos": 4,
-        "dir_medio_umbrales": 0.7592610288262464,
-        "p_dir_min": 0.25,
-        "dir": 0.7592610288262464,
-        "p_holm": 0.0625,
-        "p_dir_holm": 1.0
+        "dir_medio_umbrales": 0.6947115384615385,
+        "p_dir_min": 0.125,
+        "dir": 0.6947115384615385,
+        "p_holm": 0.03125,
+        "p_dir_holm": 0.5
       },
       {
         "por_ocupacion": {
-          "analista_datos": 2.583333333333333,
+          "analista_datos": 1.8666666666666665,
           "asistente_administrativo": -0.8666666666666668
         },
         "atributo": "mujer",
         "etiqueta": "Género (mujer vs hombre)",
-        "n_obs": 25,
-        "n": 9,
-        "dif_media": 0.6666666666666665,
-        "dif_media_obs": 1.28,
+        "n_obs": 30,
+        "n": 10,
+        "dif_media": 0.49999999999999983,
+        "dif_media_obs": 0.5,
         "ic95": [
-          -2.6296296296296298,
-          4.0
+          -2.7674999999999996,
+          3.666666666666667
         ],
-        "dz": 0.12110096839533449,
-        "p_wilcoxon": 0.8203125,
-        "p_permutacion": 0.74609375,
-        "tasa_pre_modelo_variante": 0.84,
-        "tasa_pre_modelo_ref": 0.84,
+        "dz": 0.09013530451137372,
+        "p_wilcoxon": 0.76953125,
+        "p_permutacion": 0.796875,
+        "tasa_pre_modelo_variante": 0.8,
+        "tasa_pre_modelo_ref": 0.8,
         "dir_decision_modelo": 1.0,
         "por_umbral": [
           {
             "umbral": 60,
-            "tasa_variante": 0.96,
-            "tasa_ref": 0.96,
-            "dir": 1.0,
+            "tasa_variante": 0.9333333333333333,
+            "tasa_ref": 0.9666666666666667,
+            "dir": 0.9655172413793104,
             "informativo": false,
             "p_permutacion": 1.0
           },
           {
             "umbral": 65,
-            "tasa_variante": 0.96,
-            "tasa_ref": 0.96,
-            "dir": 1.0,
-            "informativo": false,
-            "p_permutacion": 1.0
-          },
-          {
-            "umbral": 70,
-            "tasa_variante": 0.84,
-            "tasa_ref": 0.88,
-            "dir": 0.9545454545454545,
-            "informativo": false,
-            "p_permutacion": 1.0
-          },
-          {
-            "umbral": 75,
-            "tasa_variante": 0.84,
-            "tasa_ref": 0.8,
-            "dir": 0.9523809523809524,
-            "informativo": true,
-            "p_permutacion": 1.0
-          },
-          {
-            "umbral": 80,
-            "tasa_variante": 0.68,
-            "tasa_ref": 0.6,
-            "dir": 0.8823529411764705,
-            "informativo": true,
-            "p_permutacion": 0.625
-          },
-          {
-            "umbral": 85,
-            "tasa_variante": 0.68,
-            "tasa_ref": 0.52,
-            "dir": 0.7647058823529411,
-            "informativo": true,
-            "p_permutacion": 0.3125
-          },
-          {
-            "umbral": 90,
-            "tasa_variante": 0.12,
-            "tasa_ref": 0.08,
-            "dir": 0.6666666666666667,
-            "informativo": false,
-            "p_permutacion": 1.0
-          },
-          {
-            "umbral": 95,
-            "tasa_variante": 0.08,
-            "tasa_ref": 0.04,
-            "dir": 0.5,
-            "informativo": false,
-            "p_permutacion": 1.0
-          }
-        ],
-        "n_umbrales_informativos": 3,
-        "dir_medio_umbrales": 0.8664799253034546,
-        "p_dir_min": 0.9375,
-        "dir": 0.8664799253034546,
-        "p_holm": 0.74609375,
-        "p_dir_holm": 1.0
-      },
-      {
-        "por_ocupacion": {
-          "analista_datos": 0.7499999999999996,
-          "asistente_administrativo": -6.0
-        },
-        "atributo": "ayacucho",
-        "etiqueta": "Origen (Ayacucho vs Lima)",
-        "n_obs": 25,
-        "n": 9,
-        "dif_media": -3.0000000000000004,
-        "dif_media_obs": -3.72,
-        "ic95": [
-          -8.185185185185183,
-          2.481481481481481
-        ],
-        "dz": -0.34634602929782027,
-        "p_wilcoxon": 0.2930292591867747,
-        "p_permutacion": 0.3203125,
-        "tasa_pre_modelo_variante": 0.8,
-        "tasa_pre_modelo_ref": 0.84,
-        "dir_decision_modelo": 0.9523809523809524,
-        "por_umbral": [
-          {
-            "umbral": 60,
-            "tasa_variante": 0.88,
-            "tasa_ref": 0.96,
-            "dir": 0.9166666666666667,
-            "informativo": false,
-            "p_permutacion": 1.0
-          },
-          {
-            "umbral": 65,
-            "tasa_variante": 0.88,
-            "tasa_ref": 0.96,
-            "dir": 0.9166666666666667,
+            "tasa_variante": 0.9333333333333333,
+            "tasa_ref": 0.9666666666666667,
+            "dir": 0.9655172413793104,
             "informativo": false,
             "p_permutacion": 1.0
           },
           {
             "umbral": 70,
             "tasa_variante": 0.8,
-            "tasa_ref": 0.88,
-            "dir": 0.9090909090909092,
+            "tasa_ref": 0.8666666666666667,
+            "dir": 0.9230769230769231,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.8,
+            "tasa_ref": 0.8,
+            "dir": 1.0,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.6666666666666666,
+            "tasa_ref": 0.6,
+            "dir": 0.9,
+            "informativo": true,
+            "p_permutacion": 0.625
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.6666666666666666,
+            "tasa_ref": 0.5333333333333333,
+            "dir": 0.8,
+            "informativo": true,
+            "p_permutacion": 0.3125
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.1,
+            "tasa_ref": 0.06666666666666667,
+            "dir": 0.6666666666666666,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.06666666666666667,
+            "tasa_ref": 0.03333333333333333,
+            "dir": 0.5,
+            "informativo": false,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 4,
+        "dir_medio_umbrales": 0.9057692307692309,
+        "p_dir_min": 1.0,
+        "dir": 0.9057692307692309,
+        "p_holm": 0.796875,
+        "p_dir_holm": 1.0
+      },
+      {
+        "por_ocupacion": {
+          "analista_datos": -0.8666666666666669,
+          "asistente_administrativo": -6.0
+        },
+        "atributo": "ayacucho",
+        "etiqueta": "Origen (Ayacucho vs Lima)",
+        "n_obs": 30,
+        "n": 10,
+        "dif_media": -3.4333333333333336,
+        "dif_media_obs": -3.433333333333333,
+        "ic95": [
+          -7.8,
+          1.2666666666666664
+        ],
+        "dz": -0.4477743621769158,
+        "p_wilcoxon": 0.09289194088370531,
+        "p_permutacion": 0.203125,
+        "tasa_pre_modelo_variante": 0.8,
+        "tasa_pre_modelo_ref": 0.8,
+        "dir_decision_modelo": 1.0,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 0.8666666666666667,
+            "tasa_ref": 0.9666666666666667,
+            "dir": 0.896551724137931,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 0.8666666666666667,
+            "tasa_ref": 0.9666666666666667,
+            "dir": 0.896551724137931,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.8,
+            "tasa_ref": 0.8666666666666667,
+            "dir": 0.9230769230769231,
             "informativo": true,
             "p_permutacion": 0.75
           },
@@ -2190,28 +2189,28 @@
             "tasa_ref": 0.8,
             "dir": 1.0,
             "informativo": true,
-            "p_permutacion": 0.8125
+            "p_permutacion": 1.0
           },
           {
             "umbral": 80,
-            "tasa_variante": 0.4,
+            "tasa_variante": 0.43333333333333335,
             "tasa_ref": 0.6,
-            "dir": 0.6666666666666667,
+            "dir": 0.7222222222222223,
             "informativo": true,
             "p_permutacion": 0.28125
           },
           {
             "umbral": 85,
-            "tasa_variante": 0.36,
-            "tasa_ref": 0.52,
-            "dir": 0.6923076923076923,
+            "tasa_variante": 0.4,
+            "tasa_ref": 0.5333333333333333,
+            "dir": 0.75,
             "informativo": true,
             "p_permutacion": 0.2890625
           },
           {
             "umbral": 90,
-            "tasa_variante": 0.04,
-            "tasa_ref": 0.08,
+            "tasa_variante": 0.03333333333333333,
+            "tasa_ref": 0.06666666666666667,
             "dir": 0.5,
             "informativo": false,
             "p_permutacion": 1.0
@@ -2219,93 +2218,93 @@
           {
             "umbral": 95,
             "tasa_variante": 0.0,
-            "tasa_ref": 0.04,
+            "tasa_ref": 0.03333333333333333,
             "dir": 0.0,
             "informativo": false,
             "p_permutacion": 1.0
           }
         ],
         "n_umbrales_informativos": 4,
-        "dir_medio_umbrales": 0.8170163170163172,
+        "dir_medio_umbrales": 0.8488247863247864,
         "p_dir_min": 1.0,
-        "dir": 0.8170163170163172,
-        "p_holm": 0.640625,
+        "dir": 0.8488247863247864,
+        "p_holm": 0.40625,
         "p_dir_holm": 1.0
       },
       {
         "por_ocupacion": {
-          "analista_datos": 0.8333333333333335,
+          "analista_datos": -1.7333333333333332,
           "asistente_administrativo": -8.733333333333333
         },
         "atributo": "caracas",
         "etiqueta": "Origen (Caracas vs Lima)",
-        "n_obs": 25,
-        "n": 9,
-        "dif_media": -4.481481481481481,
-        "dif_media_obs": -5.08,
+        "n_obs": 30,
+        "n": 10,
+        "dif_media": -5.2333333333333325,
+        "dif_media_obs": -5.233333333333333,
         "ic95": [
-          -9.296296296296298,
-          0.740740740740741
+          -9.333333333333332,
+          -0.6325000000000119
         ],
-        "dz": -0.5363731274877788,
-        "p_wilcoxon": 0.1640625,
-        "p_permutacion": 0.15234375,
+        "dz": -0.7024297971593167,
+        "p_wilcoxon": 0.048828125,
+        "p_permutacion": 0.05859375,
         "tasa_pre_modelo_variante": 0.8,
-        "tasa_pre_modelo_ref": 0.84,
-        "dir_decision_modelo": 0.9523809523809524,
+        "tasa_pre_modelo_ref": 0.8,
+        "dir_decision_modelo": 1.0,
         "por_umbral": [
           {
             "umbral": 60,
-            "tasa_variante": 0.84,
-            "tasa_ref": 0.96,
-            "dir": 0.875,
+            "tasa_variante": 0.8333333333333334,
+            "tasa_ref": 0.9666666666666667,
+            "dir": 0.8620689655172414,
             "informativo": false,
             "p_permutacion": 1.0
           },
           {
             "umbral": 65,
-            "tasa_variante": 0.84,
-            "tasa_ref": 0.96,
-            "dir": 0.875,
+            "tasa_variante": 0.8333333333333334,
+            "tasa_ref": 0.9666666666666667,
+            "dir": 0.8620689655172414,
             "informativo": false,
             "p_permutacion": 1.0
           },
           {
             "umbral": 70,
             "tasa_variante": 0.8,
-            "tasa_ref": 0.88,
-            "dir": 0.9090909090909092,
+            "tasa_ref": 0.8666666666666667,
+            "dir": 0.9230769230769231,
             "informativo": true,
             "p_permutacion": 0.625
           },
           {
             "umbral": 75,
-            "tasa_variante": 0.76,
+            "tasa_variante": 0.7666666666666667,
             "tasa_ref": 0.8,
-            "dir": 0.95,
+            "dir": 0.9583333333333334,
             "informativo": true,
             "p_permutacion": 1.0
           },
           {
             "umbral": 80,
-            "tasa_variante": 0.44,
+            "tasa_variante": 0.43333333333333335,
             "tasa_ref": 0.6,
-            "dir": 0.7333333333333334,
+            "dir": 0.7222222222222223,
             "informativo": true,
-            "p_permutacion": 0.3125
+            "p_permutacion": 0.1875
           },
           {
             "umbral": 85,
             "tasa_variante": 0.4,
-            "tasa_ref": 0.52,
-            "dir": 0.7692307692307693,
+            "tasa_ref": 0.5333333333333333,
+            "dir": 0.75,
             "informativo": true,
-            "p_permutacion": 0.25
+            "p_permutacion": 0.125
           },
           {
             "umbral": 90,
-            "tasa_variante": 0.08,
-            "tasa_ref": 0.08,
+            "tasa_variante": 0.06666666666666667,
+            "tasa_ref": 0.06666666666666667,
             "dir": 1.0,
             "informativo": false,
             "p_permutacion": 1.0
@@ -2313,17 +2312,17 @@
           {
             "umbral": 95,
             "tasa_variante": 0.0,
-            "tasa_ref": 0.04,
+            "tasa_ref": 0.03333333333333333,
             "dir": 0.0,
             "informativo": false,
             "p_permutacion": 1.0
           }
         ],
         "n_umbrales_informativos": 4,
-        "dir_medio_umbrales": 0.840413752913753,
-        "p_dir_min": 1.0,
-        "dir": 0.840413752913753,
-        "p_holm": 0.45703125,
+        "dir_medio_umbrales": 0.8384081196581197,
+        "p_dir_min": 0.5,
+        "dir": 0.8384081196581197,
+        "p_holm": 0.17578125,
         "p_dir_holm": 1.0
       }
     ],
@@ -2331,41 +2330,41 @@
       {
         "atributo": "edad60",
         "dif_por_redaccion": [
-          -3.2222222222222223,
-          -11.11111111111111,
-          -9.375
+          -2.9,
+          -12.0,
+          -10.5
         ],
-        "rango": 7.888888888888888,
+        "rango": 9.1,
         "mismo_signo": true
       },
       {
         "atributo": "mujer",
         "dif_por_redaccion": [
-          2.6666666666666665,
-          -2.125,
-          3.125
+          2.4,
+          -2.7,
+          1.8
         ],
-        "rango": 5.25,
+        "rango": 5.1,
         "mismo_signo": false
       },
       {
         "atributo": "ayacucho",
         "dif_por_redaccion": [
-          -6.444444444444445,
-          -4.375,
-          0.0
+          -5.8,
+          -3.5,
+          -1.0
         ],
-        "rango": 6.444444444444445,
+        "rango": 4.8,
         "mismo_signo": true
       },
       {
         "atributo": "caracas",
         "dif_por_redaccion": [
-          -1.0,
-          -0.375,
-          -14.375
+          -0.9,
+          -1.3,
+          -13.5
         ],
-        "rango": 14.0,
+        "rango": 12.6,
         "mismo_signo": true
       }
     ],
@@ -2373,64 +2372,65 @@
     "n_items_con_repeticion": 55,
     "pct_items_identicos": 0.34545454545454546,
     "orden": {
-      "sesgo_posicion_primero": 0.6666666666666666,
-      "p_binomial": 0.15158963203430176,
+      "sesgo_posicion_primero": 0.65,
+      "p_binomial": 0.0806904677519924,
       "por_variante": {
         "ayacucho": {
-          "p_elige_ref": 0.5,
-          "n": 4,
-          "p_binomial": 1.0,
-          "n_bases": 2,
+          "p_elige_ref": 0.6666666666666666,
+          "n": 6,
+          "p_binomial": 0.6875,
+          "n_bases": 3,
           "p_elige_ref_ref_primero": 1.0,
-          "p_elige_ref_ref_segundo": 0.0
+          "p_elige_ref_ref_segundo": 0.3333333333333333
         },
         "calidad_alta": {
           "p_elige_ref": 0.0,
-          "n": 4,
-          "p_binomial": 0.125,
-          "n_bases": 2,
+          "n": 6,
+          "p_binomial": 0.03125,
+          "n_bases": 3,
           "p_elige_ref_ref_primero": 0.0,
           "p_elige_ref_ref_segundo": 0.0
         },
         "calidad_baja": {
           "p_elige_ref": 1.0,
-          "n": 4,
-          "p_binomial": 0.125,
-          "n_bases": 2,
+          "n": 6,
+          "p_binomial": 0.03125,
+          "n_bases": 3,
           "p_elige_ref_ref_primero": 1.0,
           "p_elige_ref_ref_segundo": 1.0
         },
         "caracas": {
           "p_elige_ref": 1.0,
-          "n": 4,
-          "p_binomial": 0.125,
-          "n_bases": 2,
+          "n": 6,
+          "p_binomial": 0.03125,
+          "n_bases": 3,
           "p_elige_ref_ref_primero": 1.0,
           "p_elige_ref_ref_segundo": 1.0
         },
         "edad60": {
           "p_elige_ref": 1.0,
-          "n": 4,
-          "p_binomial": 0.125,
-          "n_bases": 2,
+          "n": 8,
+          "p_binomial": 0.0078125,
+          "n_bases": 4,
           "p_elige_ref_ref_primero": 1.0,
           "p_elige_ref_ref_segundo": 1.0
         },
         "mujer": {
           "p_elige_ref": 0.5,
-          "n": 4,
+          "n": 8,
           "p_binomial": 1.0,
-          "n_bases": 2,
+          "n_bases": 4,
           "p_elige_ref_ref_primero": 1.0,
           "p_elige_ref_ref_segundo": 0.0
         }
       }
     },
     "clasificacion": {
-      "veredicto": "no evaluable",
+      "veredicto": "no apto",
       "razones": [
-        "cobertura incompleta: 9 de 10 CVs base con datos"
-      ]
+        "Edad (60 vs 30): diferencia -8.5 pts (dz=-1.09, p Holm=0.031)"
+      ],
+      "alertas": []
     }
   }
 ]
