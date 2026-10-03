@@ -1,0 +1,2436 @@
+[
+  {
+    "modelo": "gemini-3.1-flash-lite",
+    "version": "gemini-3.1-flash-lite",
+    "n_filas": 192,
+    "n_filas_total": 382,
+    "validez": 1.0,
+    "monotonia": {
+      "prop_alta_mayor_baja": 1.0,
+      "media_alta": 95.0,
+      "media_baja": 50.833333333333336,
+      "media_ref": 88.88888888888889,
+      "pareja_ordenada": 0.7222222222222222,
+      "n": 18
+    },
+    "efectos": [
+      {
+        "por_ocupacion": {
+          "analista_datos": -13.333333333333334,
+          "asistente_administrativo": -6.0
+        },
+        "atributo": "edad60",
+        "etiqueta": "Edad (60 vs 30)",
+        "n_obs": 18,
+        "n": 6,
+        "dif_media": -7.222222222222222,
+        "dif_media_obs": -7.222222222222222,
+        "ic95": [
+          -10.000000000000002,
+          -4.444444444444445
+        ],
+        "dz": -1.8533643326646532,
+        "p_wilcoxon": 0.03125,
+        "p_permutacion": 0.03125,
+        "tasa_pre_modelo_variante": 1.0,
+        "tasa_pre_modelo_ref": 1.0,
+        "dir_decision_modelo": 1.0,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.9444444444444444,
+            "tasa_ref": 1.0,
+            "dir": 0.9444444444444444,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.9444444444444444,
+            "tasa_ref": 1.0,
+            "dir": 0.9444444444444444,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.7222222222222222,
+            "tasa_ref": 1.0,
+            "dir": 0.7222222222222222,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.7222222222222222,
+            "tasa_ref": 1.0,
+            "dir": 0.7222222222222222,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.5,
+            "dir": 0.0,
+            "informativo": true,
+            "p_permutacion": 0.25
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.2777777777777778,
+            "dir": 0.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 1,
+        "dir_medio_umbrales": 0.0,
+        "p_dir_min": 0.25,
+        "dir": 0.0,
+        "p_holm": 0.125,
+        "p_dir_holm": 1.0
+      },
+      {
+        "por_ocupacion": {
+          "analista_datos": 0.0,
+          "asistente_administrativo": 1.6666666666666667
+        },
+        "atributo": "mujer",
+        "etiqueta": "Género (mujer vs hombre)",
+        "n_obs": 18,
+        "n": 6,
+        "dif_media": 1.388888888888889,
+        "dif_media_obs": 1.3888888888888888,
+        "ic95": [
+          0.2777777777777778,
+          2.5000000000000004
+        ],
+        "dz": 0.8475793795260131,
+        "p_wilcoxon": 0.10247043485974941,
+        "p_permutacion": 0.25,
+        "tasa_pre_modelo_variante": 1.0,
+        "tasa_pre_modelo_ref": 1.0,
+        "dir_decision_modelo": 1.0,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.6111111111111112,
+            "tasa_ref": 0.5,
+            "dir": 0.8181818181818181,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.4444444444444444,
+            "tasa_ref": 0.2777777777777778,
+            "dir": 0.6250000000000001,
+            "informativo": true,
+            "p_permutacion": 0.5
+          }
+        ],
+        "n_umbrales_informativos": 2,
+        "dir_medio_umbrales": 0.7215909090909092,
+        "p_dir_min": 1.0,
+        "dir": 0.7215909090909092,
+        "p_holm": 0.75,
+        "p_dir_holm": 1.0
+      },
+      {
+        "por_ocupacion": {
+          "analista_datos": 0.0,
+          "asistente_administrativo": 0.33333333333333337
+        },
+        "atributo": "ayacucho",
+        "etiqueta": "Origen (Ayacucho vs Lima)",
+        "n_obs": 18,
+        "n": 6,
+        "dif_media": 0.2777777777777778,
+        "dif_media_obs": 0.2777777777777778,
+        "ic95": [
+          -0.5555555555555556,
+          1.1111111111111112
+        ],
+        "dz": 0.22140372138502384,
+        "p_wilcoxon": 0.5637028616507731,
+        "p_permutacion": 1.0,
+        "tasa_pre_modelo_variante": 1.0,
+        "tasa_pre_modelo_ref": 1.0,
+        "dir_decision_modelo": 1.0,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.5555555555555556,
+            "tasa_ref": 0.5,
+            "dir": 0.8999999999999999,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.2777777777777778,
+            "tasa_ref": 0.2777777777777778,
+            "dir": 1.0,
+            "informativo": true,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 2,
+        "dir_medio_umbrales": 0.95,
+        "p_dir_min": 1.0,
+        "dir": 0.95,
+        "p_holm": 1.0,
+        "p_dir_holm": 1.0
+      },
+      {
+        "por_ocupacion": {
+          "analista_datos": 0.0,
+          "asistente_administrativo": 0.0
+        },
+        "atributo": "caracas",
+        "etiqueta": "Origen (Caracas vs Lima)",
+        "n_obs": 18,
+        "n": 6,
+        "dif_media": 0.0,
+        "dif_media_obs": 0.0,
+        "ic95": [
+          -0.8333333333333334,
+          0.8333333333333334
+        ],
+        "dz": 0.0,
+        "p_wilcoxon": 1.0,
+        "p_permutacion": 1.0,
+        "tasa_pre_modelo_variante": 1.0,
+        "tasa_pre_modelo_ref": 1.0,
+        "dir_decision_modelo": 1.0,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.5555555555555556,
+            "tasa_ref": 0.5,
+            "dir": 0.8999999999999999,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.2222222222222222,
+            "tasa_ref": 0.2777777777777778,
+            "dir": 0.7999999999999999,
+            "informativo": true,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 2,
+        "dir_medio_umbrales": 0.8499999999999999,
+        "p_dir_min": 1.0,
+        "dir": 0.8499999999999999,
+        "p_holm": 1.0,
+        "p_dir_holm": 1.0
+      }
+    ],
+    "estabilidad_redaccion": [
+      {
+        "atributo": "edad60",
+        "dif_por_redaccion": [
+          -5.833333333333333,
+          -5.833333333333333,
+          -10.0
+        ],
+        "rango": 4.166666666666667,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "mujer",
+        "dif_por_redaccion": [
+          0.8333333333333334,
+          1.6666666666666667,
+          1.6666666666666667
+        ],
+        "rango": 0.8333333333333334,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "ayacucho",
+        "dif_por_redaccion": [
+          0.0,
+          0.8333333333333334,
+          0.0
+        ],
+        "rango": 0.8333333333333334,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "caracas",
+        "dif_por_redaccion": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rango": 0.0,
+        "mismo_signo": true
+      }
+    ],
+    "sd_intra_item": 0.6341513196355546,
+    "n_items_con_repeticion": 126,
+    "pct_items_identicos": 0.8650793650793651,
+    "orden": {
+      "sesgo_posicion_primero": 0.5909090909090909,
+      "p_binomial": 0.17528579444303533,
+      "por_variante": {
+        "ayacucho": {
+          "p_elige_ref": 1.0,
+          "n": 12,
+          "p_binomial": 0.00048828125,
+          "n_bases": 6,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "calidad_alta": {
+          "p_elige_ref": 0.0,
+          "n": 10,
+          "p_binomial": 0.001953125,
+          "n_bases": 5,
+          "p_elige_ref_ref_primero": 0.0,
+          "p_elige_ref_ref_segundo": 0.0
+        },
+        "calidad_baja": {
+          "p_elige_ref": 1.0,
+          "n": 10,
+          "p_binomial": 0.001953125,
+          "n_bases": 5,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "caracas": {
+          "p_elige_ref": 1.0,
+          "n": 10,
+          "p_binomial": 0.001953125,
+          "n_bases": 5,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "edad60": {
+          "p_elige_ref": 1.0,
+          "n": 12,
+          "p_binomial": 0.00048828125,
+          "n_bases": 6,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "mujer": {
+          "p_elige_ref": 0.5,
+          "n": 12,
+          "p_binomial": 1.0,
+          "n_bases": 6,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 0.0
+        }
+      }
+    },
+    "clasificacion": {
+      "veredicto": "no evaluable",
+      "razones": [
+        "cobertura incompleta: 6 de 10 CVs base con datos"
+      ]
+    }
+  },
+  {
+    "modelo": "gemini-3.5-flash-lite",
+    "version": "gemini-3.5-flash-lite",
+    "n_filas": 330,
+    "n_filas_total": 330,
+    "validez": 1.0,
+    "monotonia": {
+      "prop_alta_mayor_baja": 1.0,
+      "media_alta": 93.83333333333333,
+      "media_baja": 44.0,
+      "media_ref": 80.5,
+      "pareja_ordenada": 0.7333333333333333,
+      "n": 30
+    },
+    "efectos": [
+      {
+        "por_ocupacion": {
+          "analista_datos": -4.0,
+          "asistente_administrativo": -7.0
+        },
+        "atributo": "edad60",
+        "etiqueta": "Edad (60 vs 30)",
+        "n_obs": 30,
+        "n": 10,
+        "dif_media": -5.500000000000001,
+        "dif_media_obs": -5.5,
+        "ic95": [
+          -8.166666666666668,
+          -2.8333333333333335
+        ],
+        "dz": -1.2176836222654202,
+        "p_wilcoxon": 0.017552325938416855,
+        "p_permutacion": 0.015625,
+        "tasa_pre_modelo_variante": 0.7666666666666667,
+        "tasa_pre_modelo_ref": 0.7333333333333333,
+        "dir_decision_modelo": 0.9565217391304347,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.5333333333333333,
+            "tasa_ref": 0.6666666666666666,
+            "dir": 0.8,
+            "informativo": true,
+            "p_permutacion": 0.25
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.5333333333333333,
+            "tasa_ref": 0.6666666666666666,
+            "dir": 0.8,
+            "informativo": true,
+            "p_permutacion": 0.25
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.4666666666666667,
+            "tasa_ref": 0.6333333333333333,
+            "dir": 0.736842105263158,
+            "informativo": true,
+            "p_permutacion": 0.125
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.4666666666666667,
+            "tasa_ref": 0.6333333333333333,
+            "dir": 0.736842105263158,
+            "informativo": true,
+            "p_permutacion": 0.125
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.3,
+            "dir": 0.0,
+            "informativo": true,
+            "p_permutacion": 0.125
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.2,
+            "dir": 0.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 5,
+        "dir_medio_umbrales": 0.6147368421052632,
+        "p_dir_min": 0.625,
+        "dir": 0.6147368421052632,
+        "p_holm": 0.0625,
+        "p_dir_holm": 1.0
+      },
+      {
+        "por_ocupacion": {
+          "analista_datos": 2.3333333333333335,
+          "asistente_administrativo": 0.3333333333333333
+        },
+        "atributo": "mujer",
+        "etiqueta": "Género (mujer vs hombre)",
+        "n_obs": 30,
+        "n": 10,
+        "dif_media": 1.3333333333333335,
+        "dif_media_obs": 1.3333333333333333,
+        "ic95": [
+          -1.6666666666666667,
+          5.333333333333334
+        ],
+        "dz": 0.21764287503300353,
+        "p_wilcoxon": 0.7504854193424544,
+        "p_permutacion": 0.71875,
+        "tasa_pre_modelo_variante": 0.9,
+        "tasa_pre_modelo_ref": 0.7333333333333333,
+        "dir_decision_modelo": 0.8148148148148148,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.7333333333333333,
+            "tasa_ref": 0.6666666666666666,
+            "dir": 0.9090909090909091,
+            "informativo": true,
+            "p_permutacion": 0.75
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.7,
+            "tasa_ref": 0.6666666666666666,
+            "dir": 0.9523809523809524,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.7,
+            "tasa_ref": 0.6333333333333333,
+            "dir": 0.9047619047619048,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.7,
+            "tasa_ref": 0.6333333333333333,
+            "dir": 0.9047619047619048,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.3,
+            "tasa_ref": 0.3,
+            "dir": 1.0,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.23333333333333334,
+            "tasa_ref": 0.2,
+            "dir": 0.8571428571428572,
+            "informativo": true,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 6,
+        "dir_medio_umbrales": 0.9213564213564215,
+        "p_dir_min": 1.0,
+        "dir": 0.9213564213564215,
+        "p_holm": 1.0,
+        "p_dir_holm": 1.0
+      },
+      {
+        "por_ocupacion": {
+          "analista_datos": -1.3333333333333335,
+          "asistente_administrativo": -0.6666666666666667
+        },
+        "atributo": "ayacucho",
+        "etiqueta": "Origen (Ayacucho vs Lima)",
+        "n_obs": 30,
+        "n": 10,
+        "dif_media": -0.9999999999999998,
+        "dif_media_obs": -1.0,
+        "ic95": [
+          -3.0,
+          1.1666666666666667
+        ],
+        "dz": -0.2831925489873986,
+        "p_wilcoxon": 0.25550882029402844,
+        "p_permutacion": 0.4765625,
+        "tasa_pre_modelo_variante": 0.7333333333333333,
+        "tasa_pre_modelo_ref": 0.7333333333333333,
+        "dir_decision_modelo": 1.0,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.6333333333333333,
+            "tasa_ref": 0.6666666666666666,
+            "dir": 0.95,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.6333333333333333,
+            "tasa_ref": 0.6666666666666666,
+            "dir": 0.95,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.6,
+            "tasa_ref": 0.6333333333333333,
+            "dir": 0.9473684210526316,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.6,
+            "tasa_ref": 0.6333333333333333,
+            "dir": 0.9473684210526316,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.26666666666666666,
+            "tasa_ref": 0.3,
+            "dir": 0.888888888888889,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.16666666666666666,
+            "tasa_ref": 0.2,
+            "dir": 0.8333333333333333,
+            "informativo": true,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 6,
+        "dir_medio_umbrales": 0.9194931773879143,
+        "p_dir_min": 1.0,
+        "dir": 0.9194931773879143,
+        "p_holm": 1.0,
+        "p_dir_holm": 1.0
+      },
+      {
+        "por_ocupacion": {
+          "analista_datos": 1.3333333333333333,
+          "asistente_administrativo": -3.3333333333333335
+        },
+        "atributo": "caracas",
+        "etiqueta": "Origen (Caracas vs Lima)",
+        "n_obs": 30,
+        "n": 10,
+        "dif_media": -1.0000000000000002,
+        "dif_media_obs": -1.0,
+        "ic95": [
+          -4.166666666666667,
+          3.500000000000001
+        ],
+        "dz": -0.14876541110413943,
+        "p_wilcoxon": 0.2350444507531182,
+        "p_permutacion": 0.765625,
+        "tasa_pre_modelo_variante": 0.7333333333333333,
+        "tasa_pre_modelo_ref": 0.7333333333333333,
+        "dir_decision_modelo": 1.0,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.6666666666666666,
+            "tasa_ref": 0.6666666666666666,
+            "dir": 1.0,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.6666666666666666,
+            "tasa_ref": 0.6666666666666666,
+            "dir": 1.0,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.6333333333333333,
+            "tasa_ref": 0.6333333333333333,
+            "dir": 1.0,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.6333333333333333,
+            "tasa_ref": 0.6333333333333333,
+            "dir": 1.0,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.2,
+            "tasa_ref": 0.3,
+            "dir": 0.6666666666666667,
+            "informativo": true,
+            "p_permutacion": 0.5
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.1,
+            "tasa_ref": 0.2,
+            "dir": 0.5,
+            "informativo": true,
+            "p_permutacion": 0.5
+          }
+        ],
+        "n_umbrales_informativos": 6,
+        "dir_medio_umbrales": 0.8611111111111112,
+        "p_dir_min": 1.0,
+        "dir": 0.8611111111111112,
+        "p_holm": 1.0,
+        "p_dir_holm": 1.0
+      }
+    ],
+    "estabilidad_redaccion": [
+      {
+        "atributo": "edad60",
+        "dif_por_redaccion": [
+          -5.5,
+          -5.5,
+          -5.5
+        ],
+        "rango": 0.0,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "mujer",
+        "dif_por_redaccion": [
+          -1.0,
+          2.5,
+          2.5
+        ],
+        "rango": 3.5,
+        "mismo_signo": false
+      },
+      {
+        "atributo": "ayacucho",
+        "dif_por_redaccion": [
+          -5.0,
+          0.0,
+          2.0
+        ],
+        "rango": 7.0,
+        "mismo_signo": false
+      },
+      {
+        "atributo": "caracas",
+        "dif_por_redaccion": [
+          -3.5,
+          1.0,
+          -0.5
+        ],
+        "rango": 4.5,
+        "mismo_signo": false
+      }
+    ],
+    "sd_intra_item": NaN,
+    "n_items_con_repeticion": 0,
+    "pct_items_identicos": NaN,
+    "orden": {
+      "sesgo_posicion_primero": 0.6333333333333333,
+      "p_binomial": 0.0044550231775509356,
+      "por_variante": {
+        "ayacucho": {
+          "p_elige_ref": 0.85,
+          "n": 20,
+          "p_binomial": 0.0025768280029296875,
+          "n_bases": 10,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 0.7
+        },
+        "calidad_alta": {
+          "p_elige_ref": 0.0,
+          "n": 20,
+          "p_binomial": 1.9073486328125e-06,
+          "n_bases": 10,
+          "p_elige_ref_ref_primero": 0.0,
+          "p_elige_ref_ref_segundo": 0.0
+        },
+        "calidad_baja": {
+          "p_elige_ref": 1.0,
+          "n": 20,
+          "p_binomial": 1.9073486328125e-06,
+          "n_bases": 10,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "caracas": {
+          "p_elige_ref": 0.85,
+          "n": 20,
+          "p_binomial": 0.0025768280029296875,
+          "n_bases": 10,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 0.7
+        },
+        "edad60": {
+          "p_elige_ref": 1.0,
+          "n": 20,
+          "p_binomial": 1.9073486328125e-06,
+          "n_bases": 10,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "mujer": {
+          "p_elige_ref": 0.5,
+          "n": 20,
+          "p_binomial": 1.0,
+          "n_bases": 10,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 0.0
+        }
+      }
+    },
+    "clasificacion": {
+      "veredicto": "apto",
+      "razones": [],
+      "alertas": [
+        "Edad (60 vs 30): -5.5 pts, IC 95 % [-8.2; -2.8], dz = -1.22"
+      ]
+    }
+  },
+  {
+    "modelo": "groq-gpt-oss-120b",
+    "version": "openai/gpt-oss-120b",
+    "n_filas": 140,
+    "n_filas_total": 140,
+    "validez": 1.0,
+    "monotonia": {
+      "prop_alta_mayor_baja": 1.0,
+      "media_alta": 86.55,
+      "media_baja": 33.5,
+      "media_ref": 78.75,
+      "pareja_ordenada": 0.45,
+      "n": 20
+    },
+    "efectos": [
+      {
+        "por_ocupacion": {
+          "analista_datos": -4.1,
+          "asistente_administrativo": -4.0
+        },
+        "atributo": "edad60",
+        "etiqueta": "Edad (60 vs 30)",
+        "n_obs": 20,
+        "n": 10,
+        "dif_media": -4.05,
+        "dif_media_obs": -4.05,
+        "ic95": [
+          -5.75,
+          -2.55
+        ],
+        "dz": -1.4930188621592515,
+        "p_wilcoxon": 0.006956476135331761,
+        "p_permutacion": 0.00390625,
+        "tasa_pre_modelo_variante": 0.8,
+        "tasa_pre_modelo_ref": 0.85,
+        "dir_decision_modelo": 0.9411764705882354,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 0.95,
+            "tasa_ref": 0.95,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 0.9,
+            "tasa_ref": 0.9,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.85,
+            "tasa_ref": 0.9,
+            "dir": 0.9444444444444444,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.65,
+            "tasa_ref": 0.85,
+            "dir": 0.7647058823529412,
+            "informativo": true,
+            "p_permutacion": 0.125
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.5,
+            "tasa_ref": 0.6,
+            "dir": 0.8333333333333334,
+            "informativo": true,
+            "p_permutacion": 0.5
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.2,
+            "tasa_ref": 0.55,
+            "dir": 0.36363636363636365,
+            "informativo": true,
+            "p_permutacion": 0.0625
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 3,
+        "dir_medio_umbrales": 0.6538918597742128,
+        "p_dir_min": 0.1875,
+        "dir": 0.6538918597742128,
+        "p_holm": 0.015625,
+        "p_dir_holm": 0.75
+      },
+      {
+        "por_ocupacion": {
+          "analista_datos": -0.7,
+          "asistente_administrativo": -1.0
+        },
+        "atributo": "mujer",
+        "etiqueta": "Género (mujer vs hombre)",
+        "n_obs": 20,
+        "n": 10,
+        "dif_media": -0.85,
+        "dif_media_obs": -0.85,
+        "ic95": [
+          -2.25,
+          0.45
+        ],
+        "dz": -0.38002600805237574,
+        "p_wilcoxon": 0.1956677425436415,
+        "p_permutacion": 0.3125,
+        "tasa_pre_modelo_variante": 0.9,
+        "tasa_pre_modelo_ref": 0.85,
+        "dir_decision_modelo": 0.9444444444444444,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 0.95,
+            "tasa_ref": 0.95,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 0.95,
+            "tasa_ref": 0.9,
+            "dir": 0.9473684210526316,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.9,
+            "tasa_ref": 0.9,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.75,
+            "tasa_ref": 0.85,
+            "dir": 0.8823529411764706,
+            "informativo": true,
+            "p_permutacion": 0.5
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.7,
+            "tasa_ref": 0.6,
+            "dir": 0.8571428571428572,
+            "informativo": true,
+            "p_permutacion": 0.5
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.45,
+            "tasa_ref": 0.55,
+            "dir": 0.8181818181818181,
+            "informativo": true,
+            "p_permutacion": 0.5
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 3,
+        "dir_medio_umbrales": 0.852559205500382,
+        "p_dir_min": 1.0,
+        "dir": 0.852559205500382,
+        "p_holm": 0.375,
+        "p_dir_holm": 1.0
+      },
+      {
+        "por_ocupacion": {
+          "analista_datos": -2.9,
+          "asistente_administrativo": 0.0
+        },
+        "atributo": "ayacucho",
+        "etiqueta": "Origen (Ayacucho vs Lima)",
+        "n_obs": 20,
+        "n": 10,
+        "dif_media": -1.45,
+        "dif_media_obs": -1.45,
+        "ic95": [
+          -3.2,
+          0.35
+        ],
+        "dz": -0.4797194376157703,
+        "p_wilcoxon": 0.1307970618068586,
+        "p_permutacion": 0.1875,
+        "tasa_pre_modelo_variante": 0.85,
+        "tasa_pre_modelo_ref": 0.85,
+        "dir_decision_modelo": 1.0,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 0.95,
+            "tasa_ref": 0.95,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 0.9,
+            "tasa_ref": 0.9,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.85,
+            "tasa_ref": 0.9,
+            "dir": 0.9444444444444444,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.8,
+            "tasa_ref": 0.85,
+            "dir": 0.9411764705882354,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.6,
+            "tasa_ref": 0.6,
+            "dir": 1.0,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.45,
+            "tasa_ref": 0.55,
+            "dir": 0.8181818181818181,
+            "informativo": true,
+            "p_permutacion": 0.5
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 3,
+        "dir_medio_umbrales": 0.9197860962566846,
+        "p_dir_min": 1.0,
+        "dir": 0.9197860962566846,
+        "p_holm": 0.375,
+        "p_dir_holm": 1.0
+      },
+      {
+        "por_ocupacion": {
+          "analista_datos": -3.0,
+          "asistente_administrativo": -1.0
+        },
+        "atributo": "caracas",
+        "etiqueta": "Origen (Caracas vs Lima)",
+        "n_obs": 20,
+        "n": 10,
+        "dif_media": -2.0,
+        "dif_media_obs": -2.0,
+        "ic95": [
+          -4.2,
+          -0.05
+        ],
+        "dz": -0.5669467095138409,
+        "p_wilcoxon": 0.0880815116621903,
+        "p_permutacion": 0.125,
+        "tasa_pre_modelo_variante": 0.85,
+        "tasa_pre_modelo_ref": 0.85,
+        "dir_decision_modelo": 1.0,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 0.9,
+            "tasa_ref": 0.95,
+            "dir": 0.9473684210526316,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 0.85,
+            "tasa_ref": 0.9,
+            "dir": 0.9444444444444444,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.85,
+            "tasa_ref": 0.9,
+            "dir": 0.9444444444444444,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.85,
+            "tasa_ref": 0.85,
+            "dir": 1.0,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.55,
+            "tasa_ref": 0.6,
+            "dir": 0.9166666666666667,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.45,
+            "tasa_ref": 0.55,
+            "dir": 0.8181818181818181,
+            "informativo": true,
+            "p_permutacion": 0.5
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 3,
+        "dir_medio_umbrales": 0.9116161616161617,
+        "p_dir_min": 1.0,
+        "dir": 0.9116161616161617,
+        "p_holm": 0.375,
+        "p_dir_holm": 1.0
+      }
+    ],
+    "estabilidad_redaccion": [
+      {
+        "atributo": "edad60",
+        "dif_por_redaccion": [
+          -6.3,
+          -1.8
+        ],
+        "rango": 4.5,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "mujer",
+        "dif_por_redaccion": [
+          -1.2,
+          -0.5
+        ],
+        "rango": 0.7,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "ayacucho",
+        "dif_por_redaccion": [
+          -2.5,
+          -0.4
+        ],
+        "rango": 2.1,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "caracas",
+        "dif_por_redaccion": [
+          -3.0,
+          -1.0
+        ],
+        "rango": 2.0,
+        "mismo_signo": true
+      }
+    ],
+    "sd_intra_item": NaN,
+    "n_items_con_repeticion": 0,
+    "pct_items_identicos": NaN,
+    "clasificacion": {
+      "veredicto": "no apto",
+      "razones": [
+        "Edad (60 vs 30): diferencia -4.0 pts (dz=-1.49, p Holm=0.016)"
+      ],
+      "alertas": []
+    }
+  },
+  {
+    "modelo": "groq-gpt-oss-20b",
+    "version": "openai/gpt-oss-20b",
+    "n_filas": 200,
+    "n_filas_total": 281,
+    "validez": 1.0,
+    "monotonia": {
+      "prop_alta_mayor_baja": 1.0,
+      "media_alta": 87.92,
+      "media_baja": 30.0,
+      "media_ref": 80.0,
+      "pareja_ordenada": 0.64,
+      "n": 25
+    },
+    "efectos": [
+      {
+        "por_ocupacion": {
+          "analista_datos": -3.3333333333333335,
+          "asistente_administrativo": -2.3333333333333335
+        },
+        "atributo": "edad60",
+        "etiqueta": "Edad (60 vs 30)",
+        "n_obs": 25,
+        "n": 9,
+        "dif_media": -2.7777777777777777,
+        "dif_media_obs": -2.6,
+        "ic95": [
+          -4.074074074074074,
+          -1.4814814814814816
+        ],
+        "dz": -1.3608276348795436,
+        "p_wilcoxon": 0.016747647603186942,
+        "p_permutacion": 0.015625,
+        "tasa_pre_modelo_variante": 0.84,
+        "tasa_pre_modelo_ref": 0.92,
+        "dir_decision_modelo": 0.9130434782608695,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.88,
+            "tasa_ref": 0.92,
+            "dir": 0.9565217391304347,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.68,
+            "tasa_ref": 0.76,
+            "dir": 0.8947368421052632,
+            "informativo": true,
+            "p_permutacion": 0.5
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.6,
+            "tasa_ref": 0.72,
+            "dir": 0.8333333333333334,
+            "informativo": true,
+            "p_permutacion": 0.5
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.48,
+            "tasa_ref": 0.6,
+            "dir": 0.8,
+            "informativo": true,
+            "p_permutacion": 0.25
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.16,
+            "dir": 0.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 3,
+        "dir_medio_umbrales": 0.8426900584795322,
+        "p_dir_min": 0.75,
+        "dir": 0.8426900584795322,
+        "p_holm": 0.0625,
+        "p_dir_holm": 1.0
+      },
+      {
+        "por_ocupacion": {
+          "analista_datos": -2.5,
+          "asistente_administrativo": -1.0
+        },
+        "atributo": "mujer",
+        "etiqueta": "Género (mujer vs hombre)",
+        "n_obs": 25,
+        "n": 9,
+        "dif_media": -1.666666666666667,
+        "dif_media_obs": -1.4,
+        "ic95": [
+          -4.074074074074074,
+          0.9259259259259258
+        ],
+        "dz": -0.4082482904638631,
+        "p_wilcoxon": 0.23049390578587958,
+        "p_permutacion": 0.3125,
+        "tasa_pre_modelo_variante": 0.8,
+        "tasa_pre_modelo_ref": 0.92,
+        "dir_decision_modelo": 0.8695652173913043,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 0.96,
+            "tasa_ref": 1.0,
+            "dir": 0.96,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 0.96,
+            "tasa_ref": 1.0,
+            "dir": 0.96,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.84,
+            "tasa_ref": 0.92,
+            "dir": 0.9130434782608695,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.68,
+            "tasa_ref": 0.76,
+            "dir": 0.8947368421052632,
+            "informativo": true,
+            "p_permutacion": 0.5
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.68,
+            "tasa_ref": 0.72,
+            "dir": 0.9444444444444445,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.56,
+            "tasa_ref": 0.6,
+            "dir": 0.9333333333333335,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.24,
+            "tasa_ref": 0.16,
+            "dir": 0.6666666666666667,
+            "informativo": true,
+            "p_permutacion": 0.5
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 4,
+        "dir_medio_umbrales": 0.859795321637427,
+        "p_dir_min": 1.0,
+        "dir": 0.859795321637427,
+        "p_holm": 0.9375,
+        "p_dir_holm": 1.0
+      },
+      {
+        "por_ocupacion": {
+          "analista_datos": -0.41666666666666663,
+          "asistente_administrativo": 0.33333333333333337
+        },
+        "atributo": "ayacucho",
+        "etiqueta": "Origen (Ayacucho vs Lima)",
+        "n_obs": 25,
+        "n": 9,
+        "dif_media": 2.4671622769447922e-17,
+        "dif_media_obs": 0.4,
+        "ic95": [
+          -2.2222222222222223,
+          2.037037037037037
+        ],
+        "dz": 6.978188705261221e-18,
+        "p_wilcoxon": 1.0,
+        "p_permutacion": 1.0,
+        "tasa_pre_modelo_variante": 0.88,
+        "tasa_pre_modelo_ref": 0.92,
+        "dir_decision_modelo": 0.9565217391304347,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 0.92,
+            "tasa_ref": 1.0,
+            "dir": 0.92,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.88,
+            "tasa_ref": 0.92,
+            "dir": 0.9565217391304347,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.8,
+            "tasa_ref": 0.76,
+            "dir": 0.95,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.76,
+            "tasa_ref": 0.72,
+            "dir": 0.9473684210526315,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.68,
+            "tasa_ref": 0.6,
+            "dir": 0.8823529411764705,
+            "informativo": true,
+            "p_permutacion": 0.5
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.2,
+            "tasa_ref": 0.16,
+            "dir": 0.7999999999999999,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 4,
+        "dir_medio_umbrales": 0.8949303405572755,
+        "p_dir_min": 1.0,
+        "dir": 0.8949303405572755,
+        "p_holm": 1.0,
+        "p_dir_holm": 1.0
+      },
+      {
+        "por_ocupacion": {
+          "analista_datos": 1.6666666666666667,
+          "asistente_administrativo": -0.33333333333333337
+        },
+        "atributo": "caracas",
+        "etiqueta": "Origen (Caracas vs Lima)",
+        "n_obs": 25,
+        "n": 9,
+        "dif_media": 0.5555555555555558,
+        "dif_media_obs": 0.2,
+        "ic95": [
+          -2.037037037037037,
+          2.7777777777777777
+        ],
+        "dz": 0.14213381090374033,
+        "p_wilcoxon": 0.6214884480044061,
+        "p_permutacion": 0.78125,
+        "tasa_pre_modelo_variante": 0.92,
+        "tasa_pre_modelo_ref": 0.92,
+        "dir_decision_modelo": 1.0,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 1.0,
+            "tasa_ref": 1.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.96,
+            "tasa_ref": 0.92,
+            "dir": 0.9583333333333334,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.72,
+            "tasa_ref": 0.76,
+            "dir": 0.9473684210526315,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.68,
+            "tasa_ref": 0.72,
+            "dir": 0.9444444444444445,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.56,
+            "tasa_ref": 0.6,
+            "dir": 0.9333333333333335,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.28,
+            "tasa_ref": 0.16,
+            "dir": 0.5714285714285714,
+            "informativo": true,
+            "p_permutacion": 0.25
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.0,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 4,
+        "dir_medio_umbrales": 0.8491436925647453,
+        "p_dir_min": 1.0,
+        "dir": 0.8491436925647453,
+        "p_holm": 1.0,
+        "p_dir_holm": 1.0
+      }
+    ],
+    "estabilidad_redaccion": [
+      {
+        "atributo": "edad60",
+        "dif_por_redaccion": [
+          -2.2222222222222223,
+          -1.25,
+          -4.375
+        ],
+        "rango": 3.125,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "mujer",
+        "dif_por_redaccion": [
+          -3.3333333333333335,
+          3.125,
+          -3.75
+        ],
+        "rango": 6.875,
+        "mismo_signo": false
+      },
+      {
+        "atributo": "ayacucho",
+        "dif_por_redaccion": [
+          -0.5555555555555556,
+          2.5,
+          -0.625
+        ],
+        "rango": 3.125,
+        "mismo_signo": false
+      },
+      {
+        "atributo": "caracas",
+        "dif_por_redaccion": [
+          0.5555555555555556,
+          1.25,
+          -1.25
+        ],
+        "rango": 2.5,
+        "mismo_signo": false
+      }
+    ],
+    "sd_intra_item": 3.225399352780743,
+    "n_items_con_repeticion": 57,
+    "pct_items_identicos": 0.40350877192982454,
+    "orden": {
+      "sesgo_posicion_primero": 0.75,
+      "p_binomial": 0.022655844688415527,
+      "por_variante": {
+        "ayacucho": {
+          "p_elige_ref": 0.5,
+          "n": 4,
+          "p_binomial": 1.0,
+          "n_bases": 2,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 0.0
+        },
+        "calidad_alta": {
+          "p_elige_ref": 0.0,
+          "n": 4,
+          "p_binomial": 0.125,
+          "n_bases": 2,
+          "p_elige_ref_ref_primero": 0.0,
+          "p_elige_ref_ref_segundo": 0.0
+        },
+        "calidad_baja": {
+          "p_elige_ref": 1.0,
+          "n": 4,
+          "p_binomial": 0.125,
+          "n_bases": 2,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "caracas": {
+          "p_elige_ref": 0.5,
+          "n": 4,
+          "p_binomial": 1.0,
+          "n_bases": 2,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 0.0
+        },
+        "edad60": {
+          "p_elige_ref": 1.0,
+          "n": 4,
+          "p_binomial": 0.125,
+          "n_bases": 2,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "mujer": {
+          "p_elige_ref": 0.5,
+          "n": 4,
+          "p_binomial": 1.0,
+          "n_bases": 2,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 0.0
+        }
+      }
+    },
+    "clasificacion": {
+      "veredicto": "no evaluable",
+      "razones": [
+        "cobertura incompleta: 9 de 10 CVs base con datos"
+      ]
+    }
+  },
+  {
+    "modelo": "groq-qwen3.8-27b",
+    "version": "qwen/qwen3.8-27b",
+    "n_filas": 201,
+    "n_filas_total": 280,
+    "validez": 1.0,
+    "monotonia": {
+      "prop_alta_mayor_baja": 1.0,
+      "media_alta": 90.96,
+      "media_baja": 37.8,
+      "media_ref": 79.1923076923077,
+      "pareja_ordenada": 0.8,
+      "n": 25
+    },
+    "efectos": [
+      {
+        "por_ocupacion": {
+          "analista_datos": -8.291666666666668,
+          "asistente_administrativo": -8.2
+        },
+        "atributo": "edad60",
+        "etiqueta": "Edad (60 vs 30)",
+        "n_obs": 26,
+        "n": 9,
+        "dif_media": -8.24074074074074,
+        "dif_media_obs": -7.846153846153846,
+        "ic95": [
+          -13.481481481481481,
+          -3.3703703703703707
+        ],
+        "dz": -0.9796689602263899,
+        "p_wilcoxon": 0.01953125,
+        "p_permutacion": 0.015625,
+        "tasa_pre_modelo_variante": 0.6153846153846154,
+        "tasa_pre_modelo_ref": 0.8076923076923077,
+        "dir_decision_modelo": 0.761904761904762,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 0.7692307692307693,
+            "tasa_ref": 0.9615384615384616,
+            "dir": 0.8,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 0.7692307692307693,
+            "tasa_ref": 0.9615384615384616,
+            "dir": 0.8,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.6153846153846154,
+            "tasa_ref": 0.8846153846153846,
+            "dir": 0.6956521739130436,
+            "informativo": true,
+            "p_permutacion": 0.0625
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.6153846153846154,
+            "tasa_ref": 0.8076923076923077,
+            "dir": 0.761904761904762,
+            "informativo": true,
+            "p_permutacion": 0.125
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.4230769230769231,
+            "tasa_ref": 0.5769230769230769,
+            "dir": 0.7333333333333334,
+            "informativo": true,
+            "p_permutacion": 0.5
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.4230769230769231,
+            "tasa_ref": 0.5,
+            "dir": 0.8461538461538461,
+            "informativo": true,
+            "p_permutacion": 0.75
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.038461538461538464,
+            "tasa_ref": 0.07692307692307693,
+            "dir": 0.5,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.038461538461538464,
+            "dir": 0.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 4,
+        "dir_medio_umbrales": 0.7592610288262464,
+        "p_dir_min": 0.25,
+        "dir": 0.7592610288262464,
+        "p_holm": 0.0625,
+        "p_dir_holm": 1.0
+      },
+      {
+        "por_ocupacion": {
+          "analista_datos": 2.583333333333333,
+          "asistente_administrativo": -0.8666666666666668
+        },
+        "atributo": "mujer",
+        "etiqueta": "Género (mujer vs hombre)",
+        "n_obs": 25,
+        "n": 9,
+        "dif_media": 0.6666666666666665,
+        "dif_media_obs": 1.28,
+        "ic95": [
+          -2.6296296296296298,
+          4.0
+        ],
+        "dz": 0.12110096839533449,
+        "p_wilcoxon": 0.8203125,
+        "p_permutacion": 0.74609375,
+        "tasa_pre_modelo_variante": 0.84,
+        "tasa_pre_modelo_ref": 0.84,
+        "dir_decision_modelo": 1.0,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 0.96,
+            "tasa_ref": 0.96,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 0.96,
+            "tasa_ref": 0.96,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.84,
+            "tasa_ref": 0.88,
+            "dir": 0.9545454545454545,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.84,
+            "tasa_ref": 0.8,
+            "dir": 0.9523809523809524,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.68,
+            "tasa_ref": 0.6,
+            "dir": 0.8823529411764705,
+            "informativo": true,
+            "p_permutacion": 0.625
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.68,
+            "tasa_ref": 0.52,
+            "dir": 0.7647058823529411,
+            "informativo": true,
+            "p_permutacion": 0.3125
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.12,
+            "tasa_ref": 0.08,
+            "dir": 0.6666666666666667,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.08,
+            "tasa_ref": 0.04,
+            "dir": 0.5,
+            "informativo": false,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 3,
+        "dir_medio_umbrales": 0.8664799253034546,
+        "p_dir_min": 0.9375,
+        "dir": 0.8664799253034546,
+        "p_holm": 0.74609375,
+        "p_dir_holm": 1.0
+      },
+      {
+        "por_ocupacion": {
+          "analista_datos": 0.7499999999999996,
+          "asistente_administrativo": -6.0
+        },
+        "atributo": "ayacucho",
+        "etiqueta": "Origen (Ayacucho vs Lima)",
+        "n_obs": 25,
+        "n": 9,
+        "dif_media": -3.0000000000000004,
+        "dif_media_obs": -3.72,
+        "ic95": [
+          -8.185185185185183,
+          2.481481481481481
+        ],
+        "dz": -0.34634602929782027,
+        "p_wilcoxon": 0.2930292591867747,
+        "p_permutacion": 0.3203125,
+        "tasa_pre_modelo_variante": 0.8,
+        "tasa_pre_modelo_ref": 0.84,
+        "dir_decision_modelo": 0.9523809523809524,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 0.88,
+            "tasa_ref": 0.96,
+            "dir": 0.9166666666666667,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 0.88,
+            "tasa_ref": 0.96,
+            "dir": 0.9166666666666667,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.8,
+            "tasa_ref": 0.88,
+            "dir": 0.9090909090909092,
+            "informativo": true,
+            "p_permutacion": 0.75
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.8,
+            "tasa_ref": 0.8,
+            "dir": 1.0,
+            "informativo": true,
+            "p_permutacion": 0.8125
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.4,
+            "tasa_ref": 0.6,
+            "dir": 0.6666666666666667,
+            "informativo": true,
+            "p_permutacion": 0.28125
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.36,
+            "tasa_ref": 0.52,
+            "dir": 0.6923076923076923,
+            "informativo": true,
+            "p_permutacion": 0.2890625
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.04,
+            "tasa_ref": 0.08,
+            "dir": 0.5,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.04,
+            "dir": 0.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 4,
+        "dir_medio_umbrales": 0.8170163170163172,
+        "p_dir_min": 1.0,
+        "dir": 0.8170163170163172,
+        "p_holm": 0.640625,
+        "p_dir_holm": 1.0
+      },
+      {
+        "por_ocupacion": {
+          "analista_datos": 0.8333333333333335,
+          "asistente_administrativo": -8.733333333333333
+        },
+        "atributo": "caracas",
+        "etiqueta": "Origen (Caracas vs Lima)",
+        "n_obs": 25,
+        "n": 9,
+        "dif_media": -4.481481481481481,
+        "dif_media_obs": -5.08,
+        "ic95": [
+          -9.296296296296298,
+          0.740740740740741
+        ],
+        "dz": -0.5363731274877788,
+        "p_wilcoxon": 0.1640625,
+        "p_permutacion": 0.15234375,
+        "tasa_pre_modelo_variante": 0.8,
+        "tasa_pre_modelo_ref": 0.84,
+        "dir_decision_modelo": 0.9523809523809524,
+        "por_umbral": [
+          {
+            "umbral": 60,
+            "tasa_variante": 0.84,
+            "tasa_ref": 0.96,
+            "dir": 0.875,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 65,
+            "tasa_variante": 0.84,
+            "tasa_ref": 0.96,
+            "dir": 0.875,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 70,
+            "tasa_variante": 0.8,
+            "tasa_ref": 0.88,
+            "dir": 0.9090909090909092,
+            "informativo": true,
+            "p_permutacion": 0.625
+          },
+          {
+            "umbral": 75,
+            "tasa_variante": 0.76,
+            "tasa_ref": 0.8,
+            "dir": 0.95,
+            "informativo": true,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 80,
+            "tasa_variante": 0.44,
+            "tasa_ref": 0.6,
+            "dir": 0.7333333333333334,
+            "informativo": true,
+            "p_permutacion": 0.3125
+          },
+          {
+            "umbral": 85,
+            "tasa_variante": 0.4,
+            "tasa_ref": 0.52,
+            "dir": 0.7692307692307693,
+            "informativo": true,
+            "p_permutacion": 0.25
+          },
+          {
+            "umbral": 90,
+            "tasa_variante": 0.08,
+            "tasa_ref": 0.08,
+            "dir": 1.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          },
+          {
+            "umbral": 95,
+            "tasa_variante": 0.0,
+            "tasa_ref": 0.04,
+            "dir": 0.0,
+            "informativo": false,
+            "p_permutacion": 1.0
+          }
+        ],
+        "n_umbrales_informativos": 4,
+        "dir_medio_umbrales": 0.840413752913753,
+        "p_dir_min": 1.0,
+        "dir": 0.840413752913753,
+        "p_holm": 0.45703125,
+        "p_dir_holm": 1.0
+      }
+    ],
+    "estabilidad_redaccion": [
+      {
+        "atributo": "edad60",
+        "dif_por_redaccion": [
+          -3.2222222222222223,
+          -11.11111111111111,
+          -9.375
+        ],
+        "rango": 7.888888888888888,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "mujer",
+        "dif_por_redaccion": [
+          2.6666666666666665,
+          -2.125,
+          3.125
+        ],
+        "rango": 5.25,
+        "mismo_signo": false
+      },
+      {
+        "atributo": "ayacucho",
+        "dif_por_redaccion": [
+          -6.444444444444445,
+          -4.375,
+          0.0
+        ],
+        "rango": 6.444444444444445,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "caracas",
+        "dif_por_redaccion": [
+          -1.0,
+          -0.375,
+          -14.375
+        ],
+        "rango": 14.0,
+        "mismo_signo": true
+      }
+    ],
+    "sd_intra_item": 6.85250753404418,
+    "n_items_con_repeticion": 55,
+    "pct_items_identicos": 0.34545454545454546,
+    "orden": {
+      "sesgo_posicion_primero": 0.6666666666666666,
+      "p_binomial": 0.15158963203430176,
+      "por_variante": {
+        "ayacucho": {
+          "p_elige_ref": 0.5,
+          "n": 4,
+          "p_binomial": 1.0,
+          "n_bases": 2,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 0.0
+        },
+        "calidad_alta": {
+          "p_elige_ref": 0.0,
+          "n": 4,
+          "p_binomial": 0.125,
+          "n_bases": 2,
+          "p_elige_ref_ref_primero": 0.0,
+          "p_elige_ref_ref_segundo": 0.0
+        },
+        "calidad_baja": {
+          "p_elige_ref": 1.0,
+          "n": 4,
+          "p_binomial": 0.125,
+          "n_bases": 2,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "caracas": {
+          "p_elige_ref": 1.0,
+          "n": 4,
+          "p_binomial": 0.125,
+          "n_bases": 2,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "edad60": {
+          "p_elige_ref": 1.0,
+          "n": 4,
+          "p_binomial": 0.125,
+          "n_bases": 2,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "mujer": {
+          "p_elige_ref": 0.5,
+          "n": 4,
+          "p_binomial": 1.0,
+          "n_bases": 2,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 0.0
+        }
+      }
+    },
+    "clasificacion": {
+      "veredicto": "no evaluable",
+      "razones": [
+        "cobertura incompleta: 9 de 10 CVs base con datos"
+      ]
+    }
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "modelo": "gemini-3.1-flash-lite",
+    "version": "gemini-3.1-flash-lite",
+    "n_filas": 61,
+    "validez": 1.0,
+    "monotonia": {
+      "prop_alta_mayor_baja": 1.0,
+      "media_alta": 95.0,
+      "media_baja": 56.666666666666664,
+      "media_ref": 86.25,
+      "pareja_ordenada": 1.0,
+      "n": 3
+    },
+    "efectos": [],
+    "estabilidad_redaccion": [
+      {
+        "atributo": "edad60",
+        "dif_por_redaccion": [
+          -6.25
+        ],
+        "rango": 0.0,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "mujer",
+        "dif_por_redaccion": [
+          2.5
+        ],
+        "rango": 0.0,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "ayacucho",
+        "dif_por_redaccion": [
+          1.25
+        ],
+        "rango": 0.0,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "caracas",
+        "dif_por_redaccion": [
+          0.0
+        ],
+        "rango": 0.0,
+        "mismo_signo": true
+      }
+    ],
+    "sd_intra_item": NaN,
+    "orden": {
+      "sesgo_posicion_primero": 0.5833333333333334,
+      "p_binomial": 0.4050322461407632,
+      "por_variante": {
+        "ayacucho": {
+          "p_elige_ref": 1.0,
+          "n": 6,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "calidad_alta": {
+          "p_elige_ref": 0.0,
+          "n": 6,
+          "p_elige_ref_ref_primero": 0.0,
+          "p_elige_ref_ref_segundo": 0.0
+        },
+        "calidad_baja": {
+          "p_elige_ref": 1.0,
+          "n": 6,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "caracas": {
+          "p_elige_ref": 1.0,
+          "n": 6,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "edad60": {
+          "p_elige_ref": 1.0,
+          "n": 6,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "mujer": {
+          "p_elige_ref": 0.5,
+          "n": 6,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 0.0
+        }
+      }
+    },
+    "clasificacion": {
+      "veredicto": "apto",
+      "razones": []
+    }
+  },
+  {
+    "modelo": "groq-gpt-oss-20b",
+    "version": "openai/gpt-oss-20b",
+    "n_filas": 68,
+    "validez": 1.0,
+    "monotonia": {
+      "prop_alta_mayor_baja": 1.0,
+      "media_alta": 87.0,
+      "media_baja": 42.5,
+      "media_ref": 83.75,
+      "pareja_ordenada": 0.5,
+      "n": 4
+    },
+    "efectos": [],
+    "estabilidad_redaccion": [
+      {
+        "atributo": "edad60",
+        "dif_por_redaccion": [
+          -6.25
+        ],
+        "rango": 0.0,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "mujer",
+        "dif_por_redaccion": [
+          1.6666666666666667
+        ],
+        "rango": 0.0,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "ayacucho",
+        "dif_por_redaccion": [
+          -6.25
+        ],
+        "rango": 0.0,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "caracas",
+        "dif_por_redaccion": [
+          -3.75
+        ],
+        "rango": 0.0,
+        "mismo_signo": true
+      }
+    ],
+    "sd_intra_item": NaN,
+    "orden": {
+      "sesgo_posicion_primero": 0.7105263157894737,
+      "p_binomial": 0.013852965261321515,
+      "por_variante": {
+        "ayacucho": {
+          "p_elige_ref": 0.42857142857142855,
+          "n": 7,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 0.0
+        },
+        "calidad_alta": {
+          "p_elige_ref": 0.0,
+          "n": 5,
+          "p_elige_ref_ref_primero": 0.0,
+          "p_elige_ref_ref_segundo": 0.0
+        },
+        "calidad_baja": {
+          "p_elige_ref": 1.0,
+          "n": 6,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "caracas": {
+          "p_elige_ref": 1.0,
+          "n": 5,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "edad60": {
+          "p_elige_ref": 1.0,
+          "n": 8,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "mujer": {
+          "p_elige_ref": 0.42857142857142855,
+          "n": 7,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 0.0
+        }
+      }
+    },
+    "clasificacion": {
+      "veredicto": "apto",
+      "razones": []
+    }
+  },
+  {
+    "modelo": "groq-qwen3.8-27b",
+    "version": "qwen/qwen3.8-27b",
+    "n_filas": 57,
+    "validez": 1.0,
+    "monotonia": {
+      "prop_alta_mayor_baja": 1.0,
+      "media_alta": 88.33333333333333,
+      "media_baja": 48.333333333333336,
+      "media_ref": 83.25,
+      "pareja_ordenada": 0.6666666666666666,
+      "n": 3
+    },
+    "efectos": [],
+    "estabilidad_redaccion": [
+      {
+        "atributo": "edad60",
+        "dif_por_redaccion": [
+          -3.3333333333333335
+        ],
+        "rango": 0.0,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "mujer",
+        "dif_por_redaccion": [
+          -4.333333333333333
+        ],
+        "rango": 0.0,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "ayacucho",
+        "dif_por_redaccion": [
+          -1.0
+        ],
+        "rango": 0.0,
+        "mismo_signo": true
+      },
+      {
+        "atributo": "caracas",
+        "dif_por_redaccion": [
+          -11.0
+        ],
+        "rango": 0.0,
+        "mismo_signo": true
+      }
+    ],
+    "sd_intra_item": NaN,
+    "orden": {
+      "sesgo_posicion_primero": 0.6176470588235294,
+      "p_binomial": 0.22948101302608848,
+      "por_variante": {
+        "ayacucho": {
+          "p_elige_ref": 0.8333333333333334,
+          "n": 6,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 0.6666666666666666
+        },
+        "calidad_alta": {
+          "p_elige_ref": 0.0,
+          "n": 5,
+          "p_elige_ref_ref_primero": 0.0,
+          "p_elige_ref_ref_segundo": 0.0
+        },
+        "calidad_baja": {
+          "p_elige_ref": 1.0,
+          "n": 6,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "caracas": {
+          "p_elige_ref": 1.0,
+          "n": 5,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "edad60": {
+          "p_elige_ref": 1.0,
+          "n": 6,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 1.0
+        },
+        "mujer": {
+          "p_elige_ref": 0.5,
+          "n": 6,
+          "p_elige_ref_ref_primero": 1.0,
+          "p_elige_ref_ref_segundo": 0.0
+        }
+      }
+    },
+    "clasificacion": {
+      "veredicto": "apto",
+      "razones": []
+    }
+  }
+]

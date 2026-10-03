@@ -1,0 +1,17 @@
+{
+  "_nota": "Avisos reales de Computrabajo Perú, capturados el 2026-10-02 con navegador. Ediciones mínimas documentadas en 'ediciones': se retiró el nombre de la empresa y, en el aviso administrativo, la declaración de igualdad de oportunidades (para que no cebe al modelo; se reporta como limitación). Texto de funciones y requisitos sin cambios.",
+  "asistente_administrativo": {
+    "titulo": "Auxiliar administrativo",
+    "fuente": "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-administrativo-en-surco-F285ADEF7372C0BB61373E686DCF3405",
+    "fecha_captura": "2026-10-02",
+    "ediciones": ["Empresa (Lavoro Perú) reemplazada por 'una empresa de terciarización y servicios de personal'", "Retirada la frase de igualdad de oportunidades y de confidencialidad de datos"],
+    "texto": "Puesto: AUXILIAR ADMINISTRATIVO en una empresa de terciarización y servicios de personal, Lima. Modalidad: tiempo completo, presencial y remoto. REQUISITOS: Técnico en Administración, contabilidad, industrial o carreras afines. Experiencia mínima de 6 meses en el área de Recursos Humanos o similares. Manejo de herramientas ofimáticas y conocimiento de procedimientos administrativos y elaboración de reportes. FUNCIONES: Organizar, clasificar y archivar legajos físicos y digitales. Mantener actualizada la documentación administrativa. Apoyar en el registro y control de información. Verificar que los documentos estén completos y correctos. Brindar soporte en tareas administrativas generales. HORARIO: Lunes a sábado, híbrido (48 horas semanales). BENEFICIOS: Ingreso directo a planilla desde el primer día con todos los beneficios de ley. Convenios institucionales."
+  },
+  "analista_datos": {
+    "titulo": "Analista de Datos Junior (BI)",
+    "fuente": "https://pe.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-datos-junior-it-en-lima-E8F55F7FE0A3E00061373E686DCF3405",
+    "fecha_captura": "2026-10-02",
+    "ediciones": ["Empresa (Bitel) reemplazada por 'una compañía de telecomunicaciones y tecnología'"],
+    "texto": "Puesto: Analista de Business Intelligence (BI) / BI Engineer en una compañía transnacional de telecomunicaciones y tecnología, oficina de San Isidro, Lima. Requisitos: Inglés avanzado (esencial, se medirá). Bachiller o egresado en ingeniería de sistemas o afines. Experiencia de 1 año en adelante en la posición. Conocimiento en SQL, Tableau y Qlik. Conocimiento de bases de datos relacionales y no relacionales (MongoDB). Funciones: Trabajar con SQL para crear informes. Trabajar con Tableau y Qlik para crear paneles. Trabajar con SQL, Python/R y marcos de aprendizaje automático para analizar y visualizar datos. Colaborar con ingenieros de datos para procesar y transformar datos sin procesar en conjuntos de datos analíticos. Ofrecemos: planilla completa con todos los beneficios de ley, pago de utilidades, EPS cubierta parcialmente, línea de carrera."
+  }
+}

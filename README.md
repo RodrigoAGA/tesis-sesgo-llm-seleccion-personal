@@ -5,7 +5,34 @@
 > **Investigador:** Rodrigo Alonso Gálvez Arrascue  
 > **Institución:** Universidad de Lima — Carrera de Ingeniería de Sistemas  
 > **Curso:** Seminario de Investigación 2 (2026-2)  
-> **Última actualización:** Septiembre 2026
+> **Última actualización:** Octubre 2026
+
+---
+
+## Protocolo de auditoría (`auditoria/`, octubre 2026)
+
+Implementación del protocolo de pruebas metamórficas usado en el trabajo de investigación:
+
+- `auditoria/diseno.py`: CVs base ficticios en español generados con semilla para dos avisos reales de
+  Computrabajo Perú (`datos/avisos.json`, capturados el 2026-10-02 con ediciones documentadas), siete variantes
+  por CV (referencia; edad 60; mujer; nacido en Ayacucho; nacido en Caracas; calidad alta y baja) y tres
+  redacciones del prompt.
+- `auditoria/llm.py`: conectores REST a Groq y Google AI Studio (solo biblioteca estándar).
+- `auditoria/run.py`: corrida reanudable; cada llamada queda en `resultados/<etiqueta>_<modelo>.jsonl` con el
+  modelo, la versión, la marca de tiempo y la respuesta cruda.
+- `auditoria/analisis.py`: diferencias pareadas con el CV base como unidad, permutación exacta, bootstrap,
+  Holm, razón de impacto dispar sobre umbrales fijos, pruebas de pares y criterio apto / no apto / no evaluable.
+- `auditoria/informe.py`: figuras.
+
+```bash
+# claves en .env: GROQ_API_KEY, GEMINI_API_KEY
+python -m auditoria.run --fase completa --bases 5 --reps 1 --modelos gemini-3.5-flash-lite --hilos 3
+python -m auditoria.analisis --prefijo completa
+python -m auditoria.informe --prefijo completa
+```
+
+`resultados/piloto1-calibracion_*` y `resultados/piloto_parcial/` son el piloto de calibración (no son
+resultados del estudio). Los topes de las API gratuitas limitaron la cobertura de algunos modelos.
 
 ---
 
